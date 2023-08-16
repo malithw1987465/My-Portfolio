@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="normalize.css">
-    <style>
 
+    <style>
+        section{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+        }
         section>div{
             width: 50vw;
             height: 50vh;
@@ -207,206 +212,7 @@
             border-top-left-radius: 150px;
             border-top-right-radius: 150px;
         }
-        section:nth-child(2)>div{
-            width: 50vw;
-            height: 50vh;
-            position: absolute;
-        }
-        section:nth-child(2)>.div1{
-            background-color: red;
-            top: 100%;
-            left: 0%;
-        }
-        section:nth-child(2)>.div2{
-            background-color: green;
-            right: 0%;
-            top: 100%;
-        }
-        section:nth-child(2)>.div3{
-            background-color: orange;
-            top: 150%;
-            left: 0%;
-        }
-        section:nth-child(2)>.div4{
-            background-color: purple;
-            top: 150%;
-            right: 0;
-        }
-        section:nth-child(2)>.div1>div{
-            width: 15vw;
-            height: 15vw;
-            border-radius: 100%;
-            background: white;
-            position: absolute;
-            top:0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-        }
-        section:nth-child(2)>.div2>div{
-            width: 15vw;
-            height: 15vw;
-            border-radius: 100%;
-            background: white;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-        }
-        section:nth-child(2)>.div3>div{
-            width: 15vw;
-            height: 15vw;
-            border-radius: 100%;
-            background: white;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-        }
-        section:nth-child(2)>.div4>div{
-            width: 15vw;
-            height: 15vw;
-            border-radius: 100%;
-            background: white;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-        }
-        section:nth-child(2)>.div1>div>div{
-            width: 8vw;
-            height: 8vw;
-            background: red;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-        }
-        section:nth-child(2)>.div2>div>div{
-            width: 8vw;
-            height: 8vw;
-            background: red;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-        }
-        section:nth-child(2)>.div3>div>div{
-            width: 8vw;
-            height: 8vw;
-            background: red;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-        }
-        section:nth-child(2)>.div4>div>div{
-            width: 8vw;
-            height: 8vw;
-            background: red;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-        }
-        body>section:nth-child(2)>div:nth-child(5){
-            width: 10vw;
-            height: 10vw;
-            background: white;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 150%;
-            bottom: 0;
-            margin: auto;
-        }
-        body>section>div:nth-child(5)>div{
-            position: absolute;
-            width: 8vw;
-            height: 8vw;
-            background: red;
-            border-radius: 100px;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-        }
-        body>section:nth-child(2)>div:nth-child(6){
-            width: 10vw;
-            height: 10vw;
-            background: white;
-            position: absolute;
-            top:100%;
-            left:0%;
-            border-bottom-right-radius: 100% ;
-        }
-        body>section:nth-child(2)>div:nth-child(7){
-            width: 10vw;
-            height: 10vw;
-            background: white;
-            position: absolute;
-            top:100%;
-            right:0%;
-            border-bottom-left-radius: 100% ;
-        }
-        body>section:nth-child(2)>div:nth-child(8){
-            width: 10vw;
-            height: 10vw;
-            background: white;
-            position: absolute;
-            bottom:-100%;
-            left:0%;
-            border-top-right-radius: 100% ;
-        }
-        body>section:nth-child(2)>div:nth-child(9){
-            width: 10vw;
-            height: 10vw;
-            background: white;
-            position: absolute;
-            bottom:-100%;
-            right:0%;
-            border-top-left-radius: 100% ;
-        }
-        body>section:nth-child(2)>div:nth-child(10){
-            width: 15vw;
-            height: 7.5vw;
-            background: white;
-            position: absolute;
-            top:100%;
-            left: 0%;
-            right:0%;
-            margin: auto;
-            border-bottom-left-radius: 150px;
-            border-bottom-right-radius: 150px;
-        }
-        body>section:nth-child(2)>div:nth-child(11){
-            width: 15vw;
-            height: 7.5vw;
-            background: white;
-            position: absolute;
-            bottom:-100%;
-            left: 0%;
-            right:0%;
-            margin: auto;
-            border-top-left-radius: 150px;
-            border-top-right-radius: 150px;
-        }
+        
 
     </style>
 </head>
@@ -443,6 +249,7 @@
         <div></div>
         <div></div>
     </section>
+
     <section>
         <div class="div1">
             <div>
@@ -475,6 +282,6 @@
         <div></div>
         <div></div>
     </section>
-    
+
 </body>
 </html>
