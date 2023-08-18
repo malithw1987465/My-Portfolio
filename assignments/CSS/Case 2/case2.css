@@ -1,0 +1,94 @@
+body>header{
+    top: 0;
+    height: 5vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+body>header>img{
+    width: 13vw;
+    position: absolute;
+    left: 0;
+}
+body>header>nav{
+    position: absolute;
+    display: inline-block;
+    top: 0vh;
+    right: 0;
+    /* width: 30vw; */
+    height: 15vh;
+}
+
+body>header ul > li {
+    padding-right: 2vw;
+    display: inline-block;
+    /* font-size: 8vh; */
+}
+
+body>header ul > li > a {
+    color: rgba(0, 0, 0, 0.96);
+    text-decoration: none;
+    font-size: 1vw;
+
+}
+body>main{
+    position: relative;
+}
+body main nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(65, 15, 113);
+    width: 200px;
+    list-style: none;
+    height: 95vh;
+    font-size: 20px;
+}
+body main nav ul li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    padding-top: 5vw;
+    margin-left: 1%;
+}
+body main nav ul li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    margin-left: 0.5vw;
+}
+main > section {
+    margin-left: 200px;
+    padding: 10px;
+}
+
+/*   Body - Gif   */
+main > section > section:first-child {
+    height: 260px;
+    position: relative;
+}
+
+main > section > section:first-child > div {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    height: 100%;
+    width: calc(100%/3);
+}
+
+main > section > section:first-child> div:nth-child(1) {
+    left: 0;
+    background: url("gif.gif");
+}
+
+main > section > section > div:nth-child(2) {
+    left: calc(100% / 3);
+    background: url("gif.gif");
+}
+
+main > section > section > div:nth-child(3) {
+    right: 0;
+    background: url("gif.gif");
+}
+main>section>p{
+    font-size: 15px;
+}
