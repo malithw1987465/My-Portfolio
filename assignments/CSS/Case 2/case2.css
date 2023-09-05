@@ -1,94 +1,148 @@
+body{
+}
 body>header{
-    top: 0;
-    height: 5vh;
-    width: 100%;
-    border-bottom: 1px solid black;
+    height: 7vh;
+    border: 1px solid black;
+    box-shadow: 1px -1px 10px 1px;
+    position: relative;
 }
 body>header>img{
-    width: 13vw;
     position: absolute;
-    left: 0;
+    width: 15%;
+    height: 70%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
-body>header>nav{
+
+
+body>header>nav>ul{
     position: absolute;
-    display: inline-block;
-    top: 0vh;
+    width: 30vw;
+    height: 5vh;
+    top: 0;
+    bottom: 0;
     right: 0;
-    /* width: 30vw; */
-    height: 15vh;
+    margin: auto;
 }
 
-body>header ul > li {
-    padding-right: 2vw;
+body>header>nav>ul > li {
+    padding-right: 5%;
     display: inline-block;
-    /* font-size: 8vh; */
 }
 
-body>header ul > li > a {
-    color: rgba(0, 0, 0, 0.96);
+body>header>nav>ul > li > a {
+    color: black;
+    font-family: Corbel;
+    font-weight: bold;
+    font-size: 1.2vw;
     text-decoration: none;
-    font-size: 1vw;
 
 }
 body>main{
+    /*height: 90vh;*/
     position: relative;
+    top: 5px
 }
-body main nav{
+body >main >nav{
+    position: absolute;
+    background-color: indigo;
+    width: 15%;
+    /*height: 100%;*/
+    top: 0;
+    bottom: 0;
+    font-size: 1.3vw;
+}
+
+body>main>nav>ul{
+    padding-inline-start: 3vw;
+}
+body >main >nav >ul >li{
+    display: block;
+    padding-top: 15%;
+
+}
+body >main >nav >ul >li >a{
+    text-decoration: none;
+    color: white;
+    font-family: Corbel;
+    font-weight: bold;
+}
+main > section {
+    /*height: 100%;*/
+    margin-left: 14vw;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+    display: block;
+}
+
+main > section > section{
+    /*height: 40%;*/
+    width: 83.6%;
     position: absolute;
     top: 0;
     bottom: 0;
-    background-color: rgb(65, 15, 113);
-    width: 200px;
-    list-style: none;
-    height: 95vh;
-    font-size: 20px;
-}
-body main nav ul li{
-    color: white;
-    text-decoration: none;
-    list-style: none;
     display: block;
-    padding-top: 5vw;
-    margin-left: 1%;
-}
-body main nav ul li a{
-    text-decoration: none;
-    color: white;
-    list-style: none;
-    margin-left: 0.5vw;
-}
-main > section {
-    margin-left: 200px;
-    padding: 10px;
 }
 
-/*   Body - Gif   */
-main > section > section:first-child {
-    height: 260px;
-    position: relative;
-}
-
-main > section > section:first-child > div {
+main > section > section > div {
     position: absolute;
-    border: 1px solid rgba(0, 0, 0, 0.33);
-    height: 100%;
+    display: inline-block;
+    border-top: 1.5px solid red;
+    border-bottom: 1.5px solid green;
+    /*height: 100%;*/
     width: calc(100%/3);
+    background-color: lightgrey;
 }
 
-main > section > section:first-child> div:nth-child(1) {
+main > section > section > div:first-child{
     left: 0;
-    background: url("gif.gif");
+    border-left: 2px solid red;
+    border-right: 2px solid green;
 }
 
-main > section > section > div:nth-child(2) {
+main > section > section > div:nth-child(2){
     left: calc(100% / 3);
-    background: url("gif.gif");
+    border-left: 2px solid green;
+    border-right: 2px solid green;
 }
 
-main > section > section > div:nth-child(3) {
+main > section > section > div:last-child{
     right: 0;
-    background: url("gif.gif");
+    border-left: 2px solid green;
+    border-right: 2px solid red;
 }
-main>section>p{
-    font-size: 15px;
+
+main > section > section > div>img{
+    width: 100%;
+    /*height: 95%;*/
+}
+
+main>section>div>p{
+    font-size: 1vw;
+}
+main>section>div>p:last-child{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+main > section > div{
+    margin-top: 22%;
+}
+
+
+footer {
+    position: relative;
+    height: 4vh;
+    background-color: slategray;
+    width: 100%;
+    padding-top: 5px;
+}
+footer>h5{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
 }
