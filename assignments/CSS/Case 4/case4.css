@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body > section {
+    position: relative;
+    height: 1000px;
+}
+
+body > section > div {
+    position: sticky;
+    top: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/*  Paragraph  */
+body > section > p {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+/*  Card 1  */
+body > section:nth-child(1) > div {
+    background-color: #FE351F;
+}
+body > section:nth-child(1) {
+    background-color: white;
+}
+
+/*  Card 2  */
+body > section:nth-child(2) > div {
+    background-color: #004583;
+}
+body > section:nth-child(2) {
+    background-color: #5BB7FF;
+}
+
+/*  Card 3  */
+body > section:nth-child(3) > div {
+    background-color: #292925;
+}
+body > section:nth-child(3) {
+    background-color: #5F5951;
+}
+
+/*  Card 4  */
+body > section:nth-child(4) > div {
+    background-color: #F13D29;
+}
+body > section:nth-child(4) {
+    background-color: #7C322A;
+}
