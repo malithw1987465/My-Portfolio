@@ -141,4 +141,15 @@ nav ul li a:hover::after {
     background-position:0 0;
     animation:back 20s linear infinite;
 }
+.reach{
+    left: 30px; 
+    opacity: 100%;
+    top: 648px; 
+    width: auto;
+    position: absolute;
+    font-family: Roboto Flex;
+    font-weight: 600;
+    font-size: 5vh;
+    opacity: 1;
+}
 
