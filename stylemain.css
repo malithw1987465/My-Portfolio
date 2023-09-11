@@ -85,8 +85,7 @@ nav ul li a:hover::after {
     left: 20px;
 }
 .text-box h3{
-    font-size: 20px;
-    font-size: 700;
+    font-size: 3vh;
     position: absolute;
     top:450px ;
     left: 20px;
@@ -114,7 +113,6 @@ nav ul li a:hover::after {
     font-size: 4vh;
     line-height: 15px;
     margin-left: 5px;
-
 }
 .text-box p{
     font-size:7vh;
@@ -123,6 +121,11 @@ nav ul li a:hover::after {
     top: 150px;
     left: 20px;
     color: #84849d;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
 }
 .text-box h1{
     font-size: 15.729vh;
@@ -138,8 +141,4 @@ nav ul li a:hover::after {
     background-position:0 0;
     animation:back 20s linear infinite;
 }
-@keyframes back{
-    100%{
-        background-position: 2000px 0;
-    }
-}
+
