@@ -3,6 +3,9 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+body{
+    position: relative;
+}
 
 ::-webkit-scrollbar {
     width: 0.7vw;
@@ -102,7 +105,7 @@ nav ul li a:hover::after {
 .text-box a{
     color: #000000;
     text-decoration: none;
-    padding: 0.528vh 1.04vh;
+    padding: 10px 20px;
     margin-right: 1.04vh;
     margin-left: 2.5vh;
     border: 3px solid #4807fb;
@@ -132,7 +135,7 @@ nav ul li a:hover::after {
     line-height: 160px;
     margin-left: -10px;
     position: absolute;
-    top: 180px;
+    top: 120px;
     left: 20px;
     color: transparent;
     -webkit-text-stroke: 2px #b5b6c3 ;
@@ -141,7 +144,7 @@ nav ul li a:hover::after {
     background-position:0 0;
     animation:back 20s linear infinite;
 }
-.reach{
+.ReachMe{
     left: 30px; 
     opacity: 100%;
     top: 648px; 
@@ -149,7 +152,51 @@ nav ul li a:hover::after {
     position: absolute;
     font-family: Roboto Flex;
     font-weight: 600;
-    font-size: 5vh;
+    font-size: 26px;
     opacity: 1;
 }
+.social-links{
+    display: flex;
+}
+.social-links a{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    box-shadow: 0 0 20px 10px rgba(129, 19, 169, 0.05);
+    margin: 0 10px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+    top: 14.28vh; 
+    left: 160px;
+}
+.social-links a .fa-brands{
+    font-size: 30px;
+    line-height: 60px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+}
+.social-links a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 90px;
+    left: 0;
+    background: linear-gradient(-45deg,#ed1c94,#ffec17);
+    position: absolute;
+    transition: 0.5s;
+}
+.social-links a:hover::after{
+    top: 0;
+}
 
+.social-links a:hover.fa-brands{
+    color: #ac1313;
+}
+.social-links a:hover{
+    transform: translateY(-10px);
+}
