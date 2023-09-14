@@ -36,8 +36,10 @@ nav>ul>li>a {
 }
 .profilepic{
     position: absolute;
-    top: -250px;
+    top: -150px;
     left: 500px;
+    width: 40vw; 
+    height: 99.8vh;
 }
 .svg2{
     position: absolute;
