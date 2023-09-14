@@ -353,3 +353,170 @@ body>{
     position: absolute;
     overflow: hidden;
  }
+ .namepic{
+    background-image: url(assets/user\ .png);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 1850px;
+    width: 43px; 
+    height: 38px; 
+    left:300px; 
+    background-size: cover;
+    border-radius: 25px;
+    padding: 20px;
+ }
+ .namepic:hover{
+    box-shadow: 0px 3px 40px 0px #1800f0;
+    border: 10px solid transparent
+}
+ .namedesc{
+    position: absolute;
+    top: 1920px;
+    left: 215px;
+ }
+ .NAME{
+    position: absolute;
+    top: 1890px;
+    left: 300px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: bold;
+ }
+ .namedesc1{
+    position: absolute;
+    top: 1940px;
+    left: 290px;
+ }
+ .Addresspic{
+    background-image: url(assets/pin.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 1850px;
+    width: 44px; 
+    height: 46px; 
+    left:750px; 
+    background-size: cover;
+    border-radius: 25px;
+    padding: 20px;
+ }
+ .Addresspic:hover{
+    box-shadow: 0px 3px 40px 0px #000000;
+    border: 10px solid transparent
+}
+ .Addressname{
+    position: absolute;
+    top: 1900px;
+    left: 740px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: bold;
+
+ }
+.myaddress{
+    position: absolute;
+    top: 1925px;
+    left: 600px;
+}
+.contact{
+    background-image: url(assets/telephone.png);
+    position: absolute;
+    top: 1850px;
+    width: 44px; 
+    height: 46px; 
+    left:1200px; 
+    background-size: cover;
+
+}
+.contact:hover{
+    box-shadow: 0px 3px 40px 0px #000000;
+    transform: translateY(-10px);
+}
+.CONTACT{
+    position: absolute;
+    top: 1900px;
+    left: 1195px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: bold;
+}
+.contactnum{
+    position: absolute;
+    top: 1925px;
+    left: 1170px;
+}
+.Age{
+    background-image: url(assets/age.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 2150px;
+    width: 44px; 
+    height: 46px; 
+    left:300px; 
+    background-size: cover;
+}
+.Age:hover{
+    box-shadow: 0px 3px 40px 0px #000000;
+    border: 10px solid transparent
+}
+.AGE{
+    position: absolute;
+    top: 2200px;
+    left: 305px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: bold;
+}
+.myage{
+    position: absolute;
+    top: 2220px;
+    left: 290px;
+ }
+ .email{
+    background-image: url(assets/mail.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 2150px;
+    width: 45px; 
+    height: 46px; 
+    left:750px; 
+    background-size: cover;
+ }
+ .email:hover{
+    box-shadow: 0px 3px 40px 0px #000000;
+    border: 10px solid transparent
+}
+ .EMAIL{
+    position: absolute;
+    top: 2195px;
+    left: 752px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: bold;
+ }
+ .myemail{
+    position: absolute;
+    top: 2220px;
+    left: 605px;
+}
+.linkedina{
+    background-image: url(assets/linkedin\ .png);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 2150px;
+    width: 46px; 
+    height: 46px; 
+    left:1200px; 
+    background-size: cover;
+    font-weight: 500;
+}
+.linkedina:hover{
+    box-shadow: 0px 3px 40px 0px #000000;
+    border: 10px solid transparent
+}
+.LINKEDIN{
+    position: absolute;
+    top: 2200px;
+    left: 1190px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: bold;
+}
+.mylinkedin{
+    position: absolute;
+    top: 2220px;
+    left: 1155px;
+}
