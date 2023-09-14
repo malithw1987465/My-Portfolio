@@ -4,23 +4,32 @@
     scroll-behavior: smooth;
 }
 
-body{
-    position: relative;
-    background-color: #423e80;
-    height: 100vh;
+body {
+    background-image: url(assets/top-view-blue-decorative-frame.jpg);
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     padding-bottom: 0px;
     margin-bottom: 0px;
+}
+
+header {
+    height: auto;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    z-index: 10;
 }
 
 body>header>nav>ul>li {
     font-weight: bolder;
     display: inline-block;
-    margin: 20px 50px;
+    margin: 25px 40px;
     position: relative;
-    left: 25vw;
+    left: 31vw;
     font-size: 1.5vw;
 }
 
@@ -28,26 +37,7 @@ nav>ul>li>a {
     text-decoration: none;
     color: rgb(12, 24, 36);
 }
-.svg1{
-    position: absolute;
-    top: 80px;
-    height: 80vh;
-    left: 700px;
-}
-.profilepic{
-    position: absolute;
-    top: -150px;
-    left: 500px;
-    width: 40vw; 
-    height: 99.8vh;
-}
-.svg2{
-    position: absolute;
-    top: 410px;
-    height: 70vh;
-    left: 850px;
-    transform: rotate(290deg);
-}
+
 nav ul li a::after {
     content: '';
     width: 0;
@@ -62,19 +52,6 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
     width: 50%;
-
-}
-
-body>{
-    background-image: url(assets/top-view-blue-decorative-frame.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    background-position: center center;
-    background-repeat: no-repeat;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
 }
 
 .intro6 {
@@ -97,19 +74,35 @@ body>{
     font-weight: 600;
 }
 
+.profilepic {
+    position: absolute;
+    top: -150px;
+    left: 41vw;
+    width: 40vw;
+    height: 99.8vh;
+}
+
+/* .rec {
+    position: absolute;
+    height: 40vw;
+    width: 35vw;
+    left: 55vw;
+    top: -7vw;
+    transform: rotate(1.5deg);
+} */
+
 .hi {
     font-size: 10vh;
-    line-height: 160px;
-    margin-left: -10px;
+    line-height: 160vw;
+    margin: 1vw 2vw;
     position: absolute;
-    top: 110px;
-    left: 20px;
+    top: 6vw;
 }
 
 .text-box h3 {
     font-size: 3vh;
     position: absolute;
-    top: 450px;
+    top: 31vw;
     left: 20px;
     color: #07034d;
 }
@@ -119,14 +112,14 @@ body>{
     align-items: center;
     flex-wrap: wrap;
     font-size: 2.5vh;
-    margin-top: 420px;
+    margin-top: 33vw;
     color: #676767;
 }
 
 .text-box a {
     color: #000000;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 1vw 2vw;
     margin-right: 1.04vw;
     margin-left: 2.5vw;
     border: 3px solid #4807fb;
@@ -134,7 +127,7 @@ body>{
 }
 
 .text-box a span {
-    top: 100px;
+    top: 10vw;
     font-size: 4vh;
     line-height: 15px;
     margin-left: 5px;
@@ -149,6 +142,7 @@ body>{
     color: #84849d;
 }
 
+/* image trnstion */
 @keyframes back {
     100% {
         background-position: 2000px 0;
@@ -171,9 +165,9 @@ body>{
 }
 
 .ReachMe {
-    left: 30px;
+    left: 1.5vw;
     opacity: 100%;
-    top: 650px;
+    top: 42vw;
     position: absolute;
     font-family: Roboto Flex;
     font-weight: 600;
@@ -186,19 +180,19 @@ body>{
 }
 
 .social-links a {
-    width: 60px;
-    height: 60px;
+    width: 4vw;
+    height: 4vw;
     text-align: center;
     text-decoration: none;
     color: #000000;
     box-shadow: 0 0 20px 10px rgba(129, 19, 169, 0.05);
-    margin: 0 10px;
+    margin: 0 1vw;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
     transition: transform 0.5s;
-    top: 14.28vh;
-    left: 160px;
+    top: 4.5vw;
+    left: 12vw;
 }
 
 .social-links a .fa-brands {
@@ -231,291 +225,317 @@ body>{
 .social-links a:hover {
     transform: translateY(-2vh);
 }
-.sec2{
-    color: #b5b6c3;
-    height: 100vh;
-    width: 100%;
-    background-position:  center;
-    background-attachment: fixed;
-    top: 0;
-    background-repeat: no-repeat;
+
+/* section 1 is over */
+
+.sec2 {
+    position: relative;
+    background-color: #1800f0;
 }
-.comma{
+
+.comma {
     background-image: url(assets/comma.png);
     position: absolute;
     background-repeat: no-repeat;
-    top: 940px;
-    width: 43px; 
-    height: 38px; 
-    left: 930px; 
+    width: 3vw;
+    height: 2.5vw;
+    left: 45vw;
+    top: 23vw;
     background-size: cover;
-    border-radius: 25px;
-    padding: 20px;
 }
-.para1{
-    position: absolute;
-    font-family:'Poppins';
-    font-weight: bold;
-    top: 1010px;
-    font-size: 2vw;
-    left: 940px;
-}
-.para2{
-    position: absolute;
-    font-family:'Poppins';
-    font-weight: 400;
-    color: #AAAAAA;
-    top: 1200px;
-    font-size: 1.5vw;
-    left: 940px;
-}
-.about{
+
+.about {
     font-size: 5.2vw;
     font-weight: bolder;
     background: linear-gradient(to right, #c9de0e,
-    #0c0c0c, #63678f, #09053f);
+            #0c0c0c, #63678f, #09053f);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-family: 'Plus Jakarta Sans';
-    left: 20px;
-    top: 700px;
+    top: 12vw;
     position: absolute;
-    margin-top: 0px;
+    margin: 1vw 1vw;
 }
-.me{
+
+.me {
     font-size: 5.2vw;
     font-weight: bolder;
     background: linear-gradient(to right, #c3801c,
-    #1f1f1f, #3d393d, #17042c);
+            #1f1f1f, #3d393d, #17042c);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-family: 'Plus Jakarta Sans';
-    left: 15px;
-    top: 800px;
+    top: 17vw;
     position: absolute;
-    margin-top:0px;
+    margin: 1vw 1vw;
 }
-.prof2{
+
+.line1 {
+    border: 1.5px solid rgb(0, 0, 0);
+    height: 32vw;
+    position: absolute;
+    left: 45vw;
+    top: 32vw;
+}
+
+.prof2 {
     position: absolute;
     background-repeat: no-repeat;
-    top: 970px;
-    width: 458px; 
-    height: 613px; 
-    left: 70px; 
+    top: 26vw;
+    width: 30vw;
+    height: 40vw;
+    left: 7vw;
     background-size: cover;
     border-radius: 25px;
-    padding: 20px;
+    padding: 2vw;
 }
-.line1{
-    margin: 100px;
-    border: 1.5px solid rgb(0, 0, 0);
-    height: 470px;
+
+.Map {
+    background-image: url(assets/Mapwrap2.png);
     position: absolute;
-    left: 800px;
-    top: 900px;
- }
- .line2{
+    background-repeat: no-repeat;
+    top: 12.7vw;
+    width: 80%;
+    height: 35vw;
+    right: 0;
+    background-size: cover;
+    right: 0;
+
+}
+
+.para1 {
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: bold;
+    top: 29vw;
+    font-size: 2vw;
+    left: 50vw;
+}
+
+.para2 {
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #AAAAAA;
+    top: 45vw;
+    font-size: 1.5vw;
+    left: 50vw;
+}
+
+.line2 {
     margin: 100px;
     border: 1.5px solid rgb(0, 0, 0);
     height: 540px;
     position: absolute;
     left: 450px;
     top: 1700px;
- }
- .line3{
+}
+
+.line3 {
     margin: 100px;
     border: 1.5px solid rgb(0, 0, 0);
     height: 540px;
     position: absolute;
-    left: 900px;
     top: 1700px;
- }
- hr.line4{
+}
+
+hr.line4 {
     border: 1.5px solid rgb(0, 0, 0);
-    width: 1300px;
     align-self: center;
     position: absolute;
     top: 2050px;
-    left: 100px;  
- }
- .Map{
-    background-image: url(assets/Mapwrap2.png);
-    position: absolute;
-    background-repeat: no-repeat;
-    top: 730px;
-    width: 100%; 
-    height: 35vw; 
-    right: 0;
-    background-repeat: no-repeat;
-    background-position:center center;
-    background-size: cover;
-    opacity: 100%; 
-    position: absolute;
-    overflow: hidden;
- }
- .namepic{
+    left: 100px;
+}
+
+
+
+.namepic {
     background-image: url(assets/user\ .png);
     position: absolute;
     background-repeat: no-repeat;
     top: 1850px;
-    width: 43px; 
-    height: 38px; 
-    left:300px; 
+    width: 43px;
+    height: 38px;
+    left: 300px;
     background-size: cover;
     border-radius: 25px;
     padding: 20px;
- }
- .namepic:hover{
+}
+
+.namepic:hover {
     box-shadow: 0px 3px 40px 0px #1800f0;
     border: 10px solid transparent
 }
- .namedesc{
+
+.namedesc {
     position: absolute;
     top: 1920px;
     left: 215px;
- }
- .NAME{
+}
+
+.NAME {
     position: absolute;
     top: 1890px;
     left: 300px;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
- }
- .namedesc1{
+}
+
+.namedesc1 {
     position: absolute;
     top: 1940px;
     left: 290px;
- }
- .Addresspic{
+}
+
+.Addresspic {
     background-image: url(assets/pin.png);
     position: absolute;
     background-repeat: no-repeat;
     top: 1850px;
-    width: 44px; 
-    height: 46px; 
-    left:750px; 
+    width: 44px;
+    height: 46px;
+    left: 750px;
     background-size: cover;
     border-radius: 25px;
     padding: 20px;
- }
- .Addresspic:hover{
+}
+
+.Addresspic:hover {
     box-shadow: 0px 3px 40px 0px #000000;
     border: 10px solid transparent
 }
- .Addressname{
+
+.Addressname {
     position: absolute;
     top: 1900px;
     left: 740px;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
 
- }
-.myaddress{
+}
+
+.myaddress {
     position: absolute;
     top: 1925px;
     left: 600px;
 }
-.contact{
+
+.contact {
     background-image: url(assets/telephone.png);
     position: absolute;
     top: 1850px;
-    width: 44px; 
-    height: 46px; 
-    left:1200px; 
+    width: 44px;
+    height: 46px;
+    left: 1200px;
     background-size: cover;
 
 }
-.contact:hover{
+
+.contact:hover {
     box-shadow: 0px 3px 40px 0px #000000;
     transform: translateY(-10px);
 }
-.CONTACT{
+
+.CONTACT {
     position: absolute;
     top: 1900px;
     left: 1195px;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
 }
-.contactnum{
+
+.contactnum {
     position: absolute;
     top: 1925px;
     left: 1170px;
 }
-.Age{
+
+.Age {
     background-image: url(assets/age.png);
     position: absolute;
     background-repeat: no-repeat;
     top: 2150px;
-    width: 44px; 
-    height: 46px; 
-    left:300px; 
+    width: 44px;
+    height: 46px;
+    left: 300px;
     background-size: cover;
 }
-.Age:hover{
+
+.Age:hover {
     box-shadow: 0px 3px 40px 0px #000000;
     border: 10px solid transparent
 }
-.AGE{
+
+.AGE {
     position: absolute;
     top: 2200px;
     left: 305px;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
 }
-.myage{
+
+.myage {
     position: absolute;
     top: 2220px;
     left: 290px;
- }
- .email{
+}
+
+.email {
     background-image: url(assets/mail.png);
     position: absolute;
     background-repeat: no-repeat;
     top: 2150px;
-    width: 45px; 
-    height: 46px; 
-    left:750px; 
+    width: 45px;
+    height: 46px;
+    left: 750px;
     background-size: cover;
- }
- .email:hover{
+}
+
+.email:hover {
     box-shadow: 0px 3px 40px 0px #000000;
     border: 10px solid transparent
 }
- .EMAIL{
+
+.EMAIL {
     position: absolute;
     top: 2195px;
     left: 752px;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
- }
- .myemail{
+}
+
+.myemail {
     position: absolute;
     top: 2220px;
     left: 605px;
 }
-.linkedina{
+
+.linkedina {
     background-image: url(assets/linkedin\ .png);
     position: absolute;
     background-repeat: no-repeat;
     top: 2150px;
-    width: 46px; 
-    height: 46px; 
-    left:1200px; 
+    width: 46px;
+    height: 46px;
+    left: 1200px;
     background-size: cover;
     font-weight: 500;
 }
-.linkedina:hover{
+
+.linkedina:hover {
     box-shadow: 0px 3px 40px 0px #000000;
     border: 10px solid transparent
 }
-.LINKEDIN{
+
+.LINKEDIN {
     position: absolute;
     top: 2200px;
     left: 1190px;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
 }
-.mylinkedin{
+
+.mylinkedin {
     position: absolute;
     top: 2220px;
     left: 1155px;
