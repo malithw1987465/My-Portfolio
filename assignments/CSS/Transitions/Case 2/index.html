@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case 2 Transition</title>
+    <style>
+
+        section{
+      width: 100%;
+      height: 95vh;
+      background-color: rgb(79, 58, 238);
+      position: relative;
+    }
+
+    section>div{
+      height: 400px;
+      width: 400px;
+      background-color: grey;
+      border-radius: 100%;
+      border: solid 20px white;
+      border-top-color: rgb(246, 12, 12);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+    }
+
+    h1{
+      width: 6vw;
+      height: 6vh;
+      color: white;
+      position: fixed;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      
+    }
+    div:hover{
+      transform: rotate(360deg);
+      transition-duration: 5s;
+    }
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <h1>RAWD</h1>
+    </section>
+</body>
+</html>
