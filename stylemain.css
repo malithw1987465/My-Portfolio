@@ -394,10 +394,9 @@ hr.line4 {
     background-repeat: no-repeat;
     top: 87vw;
     width: 4vw;
-    height: 4.vw;
+    height: 4vw;
     left: 49vw;
     border-radius: 25px;
-    padding: 0.75vw;
 }
 
 .Addresspic:hover {
@@ -407,7 +406,7 @@ hr.line4 {
 
 .Addressname {
     position: absolute;
-    top: 93vw;
+    top: 92.5vw;
     left: 49.5vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
@@ -424,11 +423,11 @@ hr.line4 {
 .contact {
     background-image: url(assets/telephone.png);
     position: absolute;
-    top: 1850px;
-    width: 44px;
-    height: 46px;
-    left: 1200px;
-    background-size: cover;
+    top: 87vw;
+    width: 4vw;
+    height: 4.2vw;
+    left: 81vw;
+    border-radius: 25px;
 
 }
 
@@ -439,23 +438,24 @@ hr.line4 {
 
 .CONTACT {
     position: absolute;
-    top: 1900px;
-    left: 1195px;
+    top: 93vw;
+    left: 80.9vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
 }
 
 .contactnum {
+    font-size: 1.5vw;
     position: absolute;
-    top: 1925px;
-    left: 1170px;
+    top: 96vw;
+    left: 79vw;
 }
 
 .Age {
     background-image: url(assets/age.png);
     position: absolute;
     background-repeat: no-repeat;
-    top: 2150px;
+    top: 110vw;
     width: 44px;
     height: 46px;
     left: 300px;
@@ -469,16 +469,17 @@ hr.line4 {
 
 .AGE {
     position: absolute;
-    top: 2200px;
-    left: 305px;
+    top: 115vw;
+    left: 20vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
 }
 
 .myage {
     position: absolute;
-    top: 2220px;
-    left: 290px;
+    top: 118vw;
+    left: 18vw;
+    font-size: 1.5vw;
 }
 
 .email {
