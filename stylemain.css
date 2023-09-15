@@ -456,9 +456,9 @@ hr.line4 {
     position: absolute;
     background-repeat: no-repeat;
     top: 110vw;
-    width: 44px;
-    height: 46px;
-    left: 300px;
+    width: 4vw;
+    height: 4.2vw;
+    left: 19.5vw;
     background-size: cover;
 }
 
@@ -478,7 +478,7 @@ hr.line4 {
 .myage {
     position: absolute;
     top: 118vw;
-    left: 18vw;
+    left: 18.5vw;
     font-size: 1.5vw;
 }
 
@@ -486,10 +486,10 @@ hr.line4 {
     background-image: url(assets/mail.png);
     position: absolute;
     background-repeat: no-repeat;
-    top: 2150px;
-    width: 45px;
-    height: 46px;
-    left: 750px;
+    top: 110vw;
+    width: 4.5vw;
+    height: 4.5vw;
+    left: 50vw;
     background-size: cover;
 }
 
@@ -500,16 +500,18 @@ hr.line4 {
 
 .EMAIL {
     position: absolute;
-    top: 2195px;
-    left: 752px;
+    top: 115vw;
+    left: 51vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
 }
 
 .myemail {
     position: absolute;
-    top: 2220px;
-    left: 605px;
+    top: 118vw;
+    left: 39vw;
+    text-decoration: none;
+    font-size: 1.5vw;
 }
 
 .linkedina {
