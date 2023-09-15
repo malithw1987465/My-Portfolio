@@ -518,11 +518,10 @@ hr.line4 {
     background-image: url(assets/linkedin\ .png);
     position: absolute;
     background-repeat: no-repeat;
-    top: 2150px;
-    width: 46px;
-    height: 46px;
-    left: 1200px;
-    background-size: cover;
+    top: 110vw;
+    width: 4.5vw;
+    height: 4.5vw;
+    left: 80vw;
     font-weight: 500;
 }
 
@@ -533,14 +532,15 @@ hr.line4 {
 
 .LINKEDIN {
     position: absolute;
-    top: 2200px;
-    left: 1190px;
+    top: 160vw;
+    left: 119vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
 }
 
 .mylinkedin {
+    font-size: 1.5vw;
     position: absolute;
-    top: 2220px;
-    left: 1155px;
+    top: 117.5vw;
+    left: 81vw;
 }
