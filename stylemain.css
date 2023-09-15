@@ -732,3 +732,144 @@ hr.line4 {
     left: 35vw;
 
 }
+/* Education section over */
+.services{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    top: 200vw;
+    background-size: cover;
+    background-image: url(assets/bluee.png);
+    
+}
+.service1{
+    font-family:'Plus Jakartha Sans';
+    font-size: 45px;
+    position: absolute;
+    left: 640px;
+    top: 3550px;
+    color: #000000;
+}
+.service2{
+    font-family:'Plus Jakartha Sans';
+    font-size: 40px;
+    position: absolute;
+    left: 395px;
+    top: 3610px;
+    text-align: center;
+    color: #d8cad3;
+}
+.S-section1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+    border: 4px #ffffff; 
+    background-color: #ffffff;
+    position: absolute;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: absolute;
+    top: 3700px;
+    border-radius: 20px;
+    left: 100px;
+    width: 300px;
+}
+.S-section2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+    border: 4px #ffffff; 
+    background-color: #ffffff;
+    position: absolute;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    position: absolute;
+    top: 3700px;
+    border-radius: 20px;
+    left: 450px;
+    width: 300px;
+}
+.S-section3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+    border: 4px #ffffff; 
+    background-color: #9f1515;
+    position: absolute;
+    padding: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    position: absolute;
+    top: 3700px;
+    border-radius: 20px;
+    left: 1150px;
+    width: 300px;
+}
+.S-section4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+    border: 4px #ffffff; 
+    background-color: #ffffff;
+    position: absolute;
+    padding: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    position: absolute;
+    top: 370px;
+    border-radius: 20px;
+    left: 800px;
+    width: 300px;
+}
+.services-list div i{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.services-list div h2{
+    font-family: Roboto Flex;
+    font-size: 24px;
+    text-align: center;
+}
+.services-list div p{
+    font-family: Roboto Flex;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+.services-list div{
+    background: #d9ccf3;
+    font-size: 13px;
+    transition: 0.5s, transform 0.5s;
+    
+}
+.services-list div:hover{
+    background: #082454;
+    transform: translateY(-10px);
+    color: white;
+}
+.services-list div a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.services-list div a:hover{
+    transform: translateY(-10px);
+    color: rgb(255, 255, 255);
+}
+.services-list div p:hover{
+    transform: translateY(-10px);
+    color: white;
+}
