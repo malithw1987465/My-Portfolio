@@ -733,17 +733,17 @@ hr.line4 {
 
 }
 /* Education section over */
-.services{
-    /* display: grid;
+
+/* .services{
+    display: grid;
     padding: 1.5vw 0;
     width: 100%;
     height: 200vh;
     background-size: cover;
     top: 6px;
     place-items: center;
-    background-image: url(assets/bluee.png); */
-    
-}
+    background-image: url(assets/bluee.png);
+} */
 .service1{
     font-family:'Plus Jakartha Sans';
     font-size: 3vw;
@@ -864,3 +864,5 @@ hr.line4 {
     transform: translateY(-10px);
     color: white;
 }
+
+ /* service section over */
