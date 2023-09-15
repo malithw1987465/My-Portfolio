@@ -230,7 +230,7 @@ nav ul li a:hover::after {
 
 .sec2 {
     position: relative;
-    background-color: #1800f0;
+    background-image: url(assets/top-view-blue-decorative-frame.jpg);
 }
 
 .comma {
@@ -549,52 +549,62 @@ hr.line4 {
 
 .EDUCATION{
     position: absolute;
-    font-size: 36px;
+    font-size: 2vw;
     color: rgb(0, 0, 0);
     font-family: 'Roboto';
-    top: 2570px;
+    top: 154vw;
     font-weight: bold;
-    left:20px; 
+    left:2vw; 
+}
+.educationpic{
+    background-image: url(assets/education.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 144vw;
+    width: 9vw; 
+    height: 9vw; 
+    left:2vw; 
+    background-size: cover;
 }
 .contents{
-    padding: 0px 35px;
-    border-left: 3.0px solid #000000;
+    padding: 0px 5vw;
+    border-left: 3.0px solid #d40505;
     position: absolute;
-    top: 2550px;
-
+    top: 150vw;
 }
 .contents h3{
     color: #000000;
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: 'Plus Jakartha Sans';
 }
 .contents h4{
     color: #000000;
     font-family: 'Plus Jakartha Sans';
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 .box1{
     position: relative;
-    padding: 20px;
+    left: 49vw;
+    padding: 1.5vw;
     border: 1px solid #FDCC1F;
     background-color: #FDCC1F;
     cursor: pointer;
     transition:  0.2s;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
     text-align: center;
 }
 .box2{
     position: relative;
-    left: -460px;
-    top: 30px;
+    left: 18vw;
+    top: 3vw;
     border: 1px solid #FDCC1F;
     background-color: #FDCC1F;
-    padding: 20px; 
+    padding: 2vw; 
     cursor: pointer;
     transition:  0.2s;
-    border-radius: 10px;
-    margin-bottom: 35px;
+    border-radius: 1vw;
+    margin-bottom: 3vw;
     text-align: center;
 }
 .box1:hover{
