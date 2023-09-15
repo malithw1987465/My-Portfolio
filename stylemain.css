@@ -122,40 +122,40 @@ nav ul li a:hover::after {
     padding: 1vw 2vw;
     margin-right: 1.04vw;
     margin-left: 2.5vw;
-    border: 3px solid #4807fb;
+    border: 2px solid #4807fb;
     align-items: center;
 }
 
 .text-box a span {
     top: 10vw;
     font-size: 4vh;
-    line-height: 15px;
-    margin-left: 5px;
+    line-height: 1.5vw;
+    margin-left: 0.2vw;
 }
 
 .text-box p {
     font-size: 7vh;
     font-weight: 600;
     position: absolute;
-    top: 150px;
-    left: 20px;
+    top: 12vw;
+    left: 1vw;
     color: #84849d;
 }
 
 /* image trnstion */
 @keyframes back {
     100% {
-        background-position: 2000px 0;
+        background-position: 100vw 0;
     }
 }
 
 .text-box h1 {
     font-size: 15.729vh;
-    line-height: 160px;
-    margin-left: -10px;
+    line-height: 15vw;
+    margin-left: -1vw;
     position: absolute;
-    top: 120px;
-    left: 20px;
+    top: 7vw;
+    left: 1vw;
     color: transparent;
     -webkit-text-stroke: 2px #b5b6c3;
     background: url(assets/back.png);
@@ -379,6 +379,7 @@ hr.line4 {
     left: 18vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
+    font-size: 1.3vw;
 }
 
 .namedesc1 {
@@ -410,6 +411,7 @@ hr.line4 {
     left: 49.5vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
+    font-size: 1.3vw;
 
 }
 
@@ -442,6 +444,7 @@ hr.line4 {
     left: 80.9vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
+    font-size: 1.3vw;
 }
 
 .contactnum {
@@ -473,6 +476,7 @@ hr.line4 {
     left: 20vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
+    font-size: 1.3vw;
 }
 
 .myage {
@@ -504,6 +508,7 @@ hr.line4 {
     left: 51vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
+    font-size: 1.3vw;
 }
 
 .myemail {
@@ -536,6 +541,7 @@ hr.line4 {
     left: 80.3vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
+    font-size: 1.3vw;
 }
 
 .mylinkedin {
@@ -684,55 +690,45 @@ hr.line4 {
     left: 42vw;
     margin: 1vw 1vw;
     background-size: cover;
-    opacity: 100%;
     position: absolute;
 }
 
 .photoshop {
     background-image: url(assets/photoshop.png);
-    width: 125px;
-    height: 140px;
-    left: 830px;
-    top: 25px;
-    background-repeat: no-repeat;
-    background-position: center center;
+    width: 8vw;
+    height: 8vw;
+    left: 53vw;
+    margin: 1vw 1vw;
     background-size: cover;
-    opacity: 100%;
     position: absolute;
 }
 
 .mysql {
     background-image: url(assets/mysql.png);
-    width: 125px;
-    height: 140px;
-    left: 1005px;
-    top: 25px;
-    background-repeat: no-repeat;
-    background-position: center center;
+    width: 8vw;
+    height: 8vw;
+    left: 64vw;
+    margin: 1vw 1vw;
     background-size: cover;
-    opacity: 100%;
     position: absolute;
 }
 
 .javascript {
     background-image: url(assets/js.png);
-    width: 125px;
-    height: 140px;
-    left: 1170px;
-    top: 25px;
-    background-repeat: no-repeat;
-    background-position: center center;
+    width: 8vw;
+    height: 8vw;
+    left: 75vw;
+    margin: 1vw 1vw;
     background-size: cover;
-    opacity: 100%;
     position: absolute;
 }
 
 .Techstack {
     font-family: 'Roboto';
-    font-size: 32px;
+    font-size: 2.5vw;
     font-weight: bold;
     position: absolute;
-    top: -100px;
-    left: 560px;
+    top: -5vw;
+    left: 35vw;
 
 }
