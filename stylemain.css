@@ -76,7 +76,7 @@ nav ul li a:hover::after {
 
 .profilepic {
     position: absolute;
-    top: -150px;
+    top: -13vw;
     left: 41vw;
     width: 40vw;
     height: 99.8vh;
@@ -323,43 +323,42 @@ nav ul li a:hover::after {
 }
 
 .line2 {
-    margin: 100px;
+    margin: 10vw 10vw;
     border: 1.5px solid rgb(0, 0, 0);
-    height: 540px;
+    height: 41vw;
     position: absolute;
-    left: 450px;
-    top: 1700px;
+    left:40vw;
+    top: 75vw;
+    left: 60vw;
 }
 
 .line3 {
-    margin: 100px;
+    left: 25vw;
+    margin: 10vw 10vw;
     border: 1.5px solid rgb(0, 0, 0);
-    height: 540px;
+    height: 41vw;
     position: absolute;
-    top: 1700px;
+    top: 75vw;
 }
 
 hr.line4 {
     border: 1.5px solid rgb(0, 0, 0);
+    width: 80vw;
     align-self: center;
     position: absolute;
-    top: 2050px;
-    left: 100px;
+    top: 105vw;
+    left: 10vw;
 }
-
-
 
 .namepic {
     background-image: url(assets/user\ .png);
     position: absolute;
-    background-repeat: no-repeat;
-    top: 1850px;
-    width: 43px;
-    height: 38px;
-    left: 300px;
-    background-size: cover;
-    border-radius: 25px;
-    padding: 20px;
+    top: 87vw;
+    width: 4.2vw;
+    height: 4.5vw;
+    left: 17vw;
+    border-radius: 2vw;
+    padding: 0.75vw;
 }
 
 .namepic:hover {
@@ -368,36 +367,37 @@ hr.line4 {
 }
 
 .namedesc {
+    font-size: 1.5vw;
     position: absolute;
-    top: 1920px;
-    left: 215px;
+    top: 96vw;
+    left: 11vw;
 }
 
 .NAME {
     position: absolute;
-    top: 1890px;
-    left: 300px;
+    top: 93vw;
+    left: 18vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
 }
 
 .namedesc1 {
+    font-size: 1.5vw;
     position: absolute;
-    top: 1940px;
-    left: 290px;
+    top: 97.5vw;
+    left: 16.5vw;
 }
 
 .Addresspic {
     background-image: url(assets/pin.png);
     position: absolute;
     background-repeat: no-repeat;
-    top: 1850px;
-    width: 44px;
-    height: 46px;
-    left: 750px;
-    background-size: cover;
+    top: 87vw;
+    width: 4vw;
+    height: 4.vw;
+    left: 49vw;
     border-radius: 25px;
-    padding: 20px;
+    padding: 0.75vw;
 }
 
 .Addresspic:hover {
@@ -407,17 +407,18 @@ hr.line4 {
 
 .Addressname {
     position: absolute;
-    top: 1900px;
-    left: 740px;
+    top: 93vw;
+    left: 49.5vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
 
 }
 
 .myaddress {
+    font-size: 1.5vw;
     position: absolute;
-    top: 1925px;
-    left: 600px;
+    top: 96vw;
+    left: 45vw;
 }
 
 .contact {
