@@ -299,7 +299,7 @@ nav ul li a:hover::after {
     height: 35vw;
     right: 0;
     background-size: cover;
-    right: 0;
+    right: 10%;
 
 }
 
@@ -532,8 +532,8 @@ hr.line4 {
 
 .LINKEDIN {
     position: absolute;
-    top: 160vw;
-    left: 119vw;
+    top: 115vw;
+    left: 80.3vw;
     font-family: 'Plus Jakarta Sans';
     font-weight: bold;
 }
@@ -542,5 +542,6 @@ hr.line4 {
     font-size: 1.5vw;
     position: absolute;
     top: 117.5vw;
-    left: 81vw;
+    left: 80.5vw;
+    text-decoration: none;
 }
