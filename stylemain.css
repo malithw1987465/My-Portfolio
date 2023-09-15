@@ -866,3 +866,186 @@ hr.line4 {
 }
 
  /* service section over */
+ .Projects{
+    position: absolute;
+    height: auto;
+    background-image: url(assets/bluee.png);
+}
+.projects{
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    left:650px;
+    top: 4260px;
+    font-size: 45px;
+    color: #000000;
+}
+.chatconnect{
+    background-color: #D9D9D9;
+    width: 992px;
+    height: 524px;
+    position: absolute;
+    top: 4400px;
+    left: 250px;
+    border-radius: 20px;
+}
+.chatpic1{
+    position: absolute;
+    background-image: url(assets/chatconnect.png);
+    background-repeat: no-repeat;
+    width: 268px;
+    height: 209px;
+    top: 40px;
+    margin-left: 625px;
+    background-size: cover;
+    border-radius: 5%;
+}
+.chatpic2{
+    position: absolute;
+    background-image: url(assets/chatconnet2.png);
+    background-repeat: no-repeat;
+    width: 268px;
+    height: 209px;
+    top: 260px;
+    margin-left: 625px;
+    background-size: cover;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+.petsnow{
+    background-color: #D9D9D9;
+    width: 992px;
+    height: 524px;
+    position: absolute;
+    top: 5000px;
+    left: 250px;
+    border-radius: 20px;
+}
+.petpic{
+    position: absolute;
+    background-image: url(assets/petsnow\ \(2\).png);
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 350px;
+    top: 45px;
+    margin-left: 15px;
+    background-size: cover;
+    border-radius: 5%;
+    margin-top: 30px; 
+}
+.grocerease{
+    background-color: #D9D9D9;
+    width: 992px;
+    height: 524px;
+    position: absolute;
+    top: 5600px;
+    left: 250px;
+    border-radius: 20px;
+}
+.grocpic{
+    position: absolute;
+    background-image: url(assets/grocer.png);
+    background-repeat: no-repeat;
+    width: 368px;
+    height: 209px;
+    top: 40px;
+    margin-left: 535px;
+    background-size: cover;
+    border-radius: 5%; 
+}
+.grocpic2{
+    position: absolute;
+    background-image: url(assets/grocer2.png);
+    background-repeat: no-repeat;
+    width: 368px;
+    height: 209px;
+    top: 260px;
+    margin-left: 535px;
+    background-size: cover;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+.desc1{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    width:480px ;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-image: url(assets/bluee.png);
+    opacity: 70%;
+}
+.desc2{
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    width:480px ;
+    left: 500px ;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-image: url(assets/bluee.png);
+    opacity: 70%;
+}
+.desc3{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    width:480px ;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-image: url(assets/bluee.png);
+    opacity: 70%;
+}
+ .desc3:hover{
+    background: linear-gradient(-45deg,#3558e7,#000000);
+    transform: translateY(-5px);
+    color: white;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.desc2:hover{
+    background: linear-gradient(-45deg,#3857d4,#000000);
+    transform: translateY(-5px);
+    color: white;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.desc1:hover{
+    background: linear-gradient(-45deg,#4079ec,#040007);
+    transform: translateY(-5px);
+    color: white;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.ccc{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+.cce{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+.Projects a{
+    font-size: 20px;
+    padding: 10px 30px;
+    background: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 20px;
+    font-family: 'Plus Jakartha Sans';
+    text-decoration: none;
+  
+}
