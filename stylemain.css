@@ -1061,7 +1061,7 @@ hr.line4 {
     margin-bottom: 1vw;
     height: 10vw;
     width:10vw ;
-    left: 10vw;
+    left: 13vw;
     margin-right:20px; 
     background-repeat: no-repeat;
     background-position:center center;
@@ -1074,7 +1074,7 @@ hr.line4 {
     margin-bottom: 10px;
     height: 10vw;
     width:10vw;
-    left: 25vw;
+    left: 28vw;
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
@@ -1086,7 +1086,7 @@ hr.line4 {
     margin-bottom: 10px;
     height: 10vw;
     width:10vw;
-    left: 40vw;
+    left: 43vw;
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
@@ -1098,7 +1098,7 @@ hr.line4 {
     margin-bottom: 10px;
     height: 10vw;
     width:10vw;
-    left: 55vw;
+    left: 58vw;
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
@@ -1110,37 +1110,38 @@ hr.line4 {
     margin-bottom: 10px;
     height: 10vw;
     width:10vw;
-    left: 70vw;
+    left: 73vw;
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
 }
 .align h5{
     top:400vw;
-    position: absolute;
+    position: relative;
     left: 110px;
     color: #000000;
     text-decoration: none;
 }
 .btn-3 {
-    background: rgb(255, 247, 4);
-  background: linear-gradient(0deg, rgb(30, 37, 34) 0%, rgb(171, 244, 14) 100%);
-    width: 130px;
-    height: 40px;
-    line-height: 42px;
+    background: rgb(7, 31, 255);
+    background: linear-gradient(0deg, rgb(30, 37, 34) 0%, rgb(176, 173, 236) 100%);
+    width: 7vw;
+    height: 2.5vw;
+    line-height: 2vw;
     padding: 0;
     border: none;
-    top: 6650px;
+    top: 417vw;
     position: absolute;
-    left: 710px;
-    
+    left: 45vw;
   }
   .btn-3 span {
+    font-size: 1.2vw;
     position: relative;
     display: block;
     width: 100%;
     height: 100%;
     font-family: 'Roboto';
+    text-align: center;
   }
   .btn-3:before,
   .btn-3:after {
@@ -1148,7 +1149,7 @@ hr.line4 {
     content: "";
     right: 0;
     top: 0;
-     background: rgb(169, 245, 18);
+     background: rgb(0, 0, 0);
     transition: all 0.3s ease;
   }
   .btn-3:before {
