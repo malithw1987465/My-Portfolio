@@ -93,7 +93,7 @@ nav ul li a:hover::after {
 } */
 
 .hi {
-    font-size: 10vh;
+    font-size: 10vw;
     line-height: 160vw;
     margin: 1vw 2vw;
     position: absolute;
