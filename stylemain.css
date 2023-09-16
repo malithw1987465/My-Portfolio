@@ -1197,3 +1197,116 @@ hr.line4 {
   .btn-3 span:hover:after {
     width: 100%;
   }
+  /* assgnments section over */
+  .Blog{
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    padding: 30px 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    top: 600px;
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    opacity: 100%;
+  }
+  .Blog span{
+    font-family: 'Poppins';
+    font-size: 52px;
+    position: absolute;
+    top: 6850px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .learn{
+    font-family: 'Poppins';
+    font-size: 16px;
+    position: absolute;
+    top: 6790px;
+    text-align: center;
+    font-weight: 200;
+  }
+  .blog1{
+    background-image: url(assets/blog1.png);
+    width: 362px;
+    height: 256px;
+    position: absolute;
+    top: 7000px;
+    left: 175px;
+    border-radius: 20px;
+    padding-right: 50px;
+    background-position:center center;
+    background-size: cover;
+  }
+  .blog1:hover{
+    transform: translateY(-5px);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    opacity: 0.7;
+  }
+  .blog2{
+    background-image: url(assets/blog2.png);
+    width: 362px;
+    height: 256px;
+    position: absolute;
+    top: 7000px;
+    left: 575px;
+    border-radius: 20px;
+    padding-right: 50px;
+    background-position:center center;
+    background-size: cover;
+  }
+  .blog2:hover{
+    transform: translateY(-5px);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    opacity: 0.7;
+  }
+  .blog3{
+    background-image:url(assets/blog3.png) ;
+    width: 362px;
+    height: 256px;
+    position: absolute;
+    top: 7000px;
+    left: 975px;
+    border-radius: 20px;
+    padding-right: 50px;
+    background-size: cover;
+  }
+  .blog3:hover{
+    transform: translateY(-5px);
+    color: white;
+    transition: 0.5s;
+    opacity: 0.7;
+  }
+  .Blog p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: bold;
+    color: #c1bcbc;
+    top: 270px;
+    position: absolute;
+  }
+  .follow{
+    font-family: 'Poppins';
+    font-size: 20px;
+    position: absolute;
+    top: 7400px;
+    text-align: center;
+    font-weight: bolder;
+    color: #000000;
+  }
+.medium{
+    background-image: url(assets/medium.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 7395px;
+    left: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
