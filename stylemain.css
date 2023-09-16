@@ -1044,3 +1044,153 @@ hr.line4 {
   
 }
 /* service section over */
+.Assignments{
+    position: absolute;
+}
+.assign{
+    position: absolute;
+    top: 400vw;
+    left: 38vw;
+    font-size: 2.5vw;
+    font-family: 'Roboto';
+}
+.assignpic1{
+    background-image: url(assets/assignment.png);
+    top: 6300px;
+    position: absolute;
+    margin-bottom: 10px;
+    height: 278px;
+    width:280px ;
+    left: 100px;
+    margin-right:20px; 
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+.assignpic2{
+    background-image: url(assets/assignment.png);
+    top: 6300px;
+    position: absolute;
+    margin-bottom: 10px;
+    height: 278px;
+    width:280px;
+    left: 450px;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+.assignpic3{
+    background-image: url(assets/assignment.png);
+    top: 6300px;
+    position: absolute;
+    margin-bottom: 10px;
+    height: 278px;
+    width:280px;
+    left: 800px;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+.assignpic4{
+    background-image: url(assets/assignment.png);
+    top: 6300px;
+    position: absolute;
+    margin-bottom: 10px;
+    height: 278px;
+    width:280px;
+    left: 1150px;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+.assignpic5{
+    background-image: url(assets/assignment.png);
+    top: 6300px;
+    position: absolute;
+    margin-bottom: 10px;
+    height: 278px;
+    width:280px;
+    left: 1150px;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+.Assignments p{
+    top: 300px;
+    position: absolute;
+    left: 110px;
+    color: #000000;
+}
+.btn-3 {
+    background: rgb(255, 247, 4);
+  background: linear-gradient(0deg, rgb(30, 37, 34) 0%, rgb(171, 244, 14) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    top: 6650px;
+    position: absolute;
+    left: 710px;
+    
+  }
+  .btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgb(169, 245, 18);
+    transition: all 0.3s ease;
+  }
+  .btn-3:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .btn-3:hover:before {
+    height: 100%;
+  }
+  .btn-3:hover:after {
+    width: 100%;
+  }
+  .btn-3 span:hover{
+     color: rgb(155, 234, 8);
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+  }
+  .btn-3 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-3 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3 span:hover:before {
+    height: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
+  }
