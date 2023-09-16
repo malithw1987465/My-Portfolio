@@ -1115,12 +1115,13 @@ hr.line4 {
     background-position:center center;
     background-size: cover;
 }
-.align h5{
-    top:400vw;
-    position: relative;
-    left: 110px;
-    color: #000000;
-    text-decoration: none;
+.Assignments p{
+    position:relative;
+    display: inline-block;
+    top: 400vw;
+    font-size: 1vw;
+    margin-left: 2vw;
+    text-align: center;
 }
 .btn-3 {
     background: rgb(7, 31, 255);
