@@ -934,21 +934,21 @@ hr.line4 {
 }
 .grocerease{
     background-color: #D9D9D9;
-    width: 992px;
-    height: 524px;
+    width: 64vw;
+    height: 34vw;
     position: absolute;
-    top: 5600px;
-    left: 250px;
+    top: 360vw;
+    left: 15vw;
     border-radius: 20px;
 }
 .grocpic{
     position: absolute;
     background-image: url(assets/grocer.png);
     background-repeat: no-repeat;
-    width: 368px;
-    height: 209px;
-    top: 40px;
-    margin-left: 535px;
+    width: 23.5vw;
+    height: 15vw;
+    top: 2vw;
+    margin-left: 40.5vw;
     background-size: cover;
     border-radius: 5%; 
 }
@@ -956,9 +956,9 @@ hr.line4 {
     position: absolute;
     background-image: url(assets/grocer2.png);
     background-repeat: no-repeat;
-    width: 368px;
-    height: 209px;
-    top: 260px;
+    width: 23.5vw;
+    height: 15vw;
+    top: 16vw;
     margin-left: 535px;
     background-size: cover;
     border-radius: 5%;
