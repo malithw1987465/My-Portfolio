@@ -1056,12 +1056,12 @@ hr.line4 {
 }
 .assignpic1{
     background-image: url(assets/assignment.png);
-    top: 6300px;
+    top: 405vw;
     position: absolute;
-    margin-bottom: 10px;
-    height: 278px;
-    width:280px ;
-    left: 100px;
+    margin-bottom: 1vw;
+    height: 10vw;
+    width:10vw ;
+    left: 10vw;
     margin-right:20px; 
     background-repeat: no-repeat;
     background-position:center center;
@@ -1069,57 +1069,58 @@ hr.line4 {
 }
 .assignpic2{
     background-image: url(assets/assignment.png);
-    top: 6300px;
+    top: 405vw;
     position: absolute;
     margin-bottom: 10px;
-    height: 278px;
-    width:280px;
-    left: 450px;
+    height: 10vw;
+    width:10vw;
+    left: 25vw;
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
 }
 .assignpic3{
     background-image: url(assets/assignment.png);
-    top: 6300px;
+    top: 405vw;
     position: absolute;
     margin-bottom: 10px;
-    height: 278px;
-    width:280px;
-    left: 800px;
+    height: 10vw;
+    width:10vw;
+    left: 40vw;
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
 }
 .assignpic4{
     background-image: url(assets/assignment.png);
-    top: 6300px;
+    top: 405vw;
     position: absolute;
     margin-bottom: 10px;
-    height: 278px;
-    width:280px;
-    left: 1150px;
+    height: 10vw;
+    width:10vw;
+    left: 55vw;
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
 }
 .assignpic5{
     background-image: url(assets/assignment.png);
-    top: 6300px;
+    top: 405vw;
     position: absolute;
     margin-bottom: 10px;
-    height: 278px;
-    width:280px;
-    left: 1150px;
+    height: 10vw;
+    width:10vw;
+    left: 70vw;
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
 }
-.Assignments p{
-    top: 300px;
+.align h5{
+    top:400vw;
     position: absolute;
     left: 110px;
     color: #000000;
+    text-decoration: none;
 }
 .btn-3 {
     background: rgb(255, 247, 4);
