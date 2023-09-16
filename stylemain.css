@@ -1126,7 +1126,7 @@ hr.line4 {
 } */
 .btn-3 {
     background: rgb(7, 31, 255);
-    background: linear-gradient(0deg, rgb(30, 37, 34) 0%, rgb(176, 173, 236) 100%);
+    background: linear-gradient(0deg, rgb(30, 37, 34) 0%, rgb(170, 79, 186) 100%);
     width: 7vw;
     height: 2.5vw;
     line-height: 2vw;
@@ -1134,7 +1134,7 @@ hr.line4 {
     border: none;
     top: 417vw;
     position: absolute;
-    left: 45vw;
+    left: 47vw;
   }
   .btn-3 span {
     font-size: 1.2vw;
@@ -1200,8 +1200,6 @@ hr.line4 {
   }
   /* assgnments section over */
   .Blog{
-    display: grid;
-    min-height: 100vh;
     place-items: center;
     padding: 1vw 1vw;
     height: 100vh;
@@ -1219,6 +1217,7 @@ hr.line4 {
     font-size: 3.5vw;
     position: absolute;
     top: 443vw;
+    left: 39vw;
     text-align: center;
     font-weight: bold;
     color: #ffffff;
@@ -1228,6 +1227,7 @@ hr.line4 {
     font-size: 1.2vw;
     position: absolute;
     top: 440vw;
+    left: 44vw;
     text-align: center;
     font-weight: 200;
     color: white;
@@ -1284,28 +1284,28 @@ hr.line4 {
   }
   .Blog p{
     font-family: 'Poppins';
-    font-size: 16px;
+    font-size: 1.3vw;
     font-weight: bold;
     color: #c1bcbc;
-    top: 270px;
+    top: 18vw;
     position: absolute;
   }
   .follow{
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 1.3vw;
     position: absolute;
-    top: 7400px;
+    top: 481vw;
     text-align: center;
     font-weight: bolder;
     color: #000000;
   }
 .medium{
     background-image: url(assets/medium.png);
-    width: 44px;
-    height: 44px;
+    width: 3vw;
+    height: 3vw;
     position: absolute;
-    top: 7395px;
-    left: 850px;
+    top: 480vw;
+    left: 54vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center;
