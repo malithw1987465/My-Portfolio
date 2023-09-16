@@ -746,6 +746,9 @@ hr.line4 {
     place-items: center;
     background-image: url(assets/bluee.png);
 } */
+.para3{
+    position: relative;
+}
 .service1 {
     font-family: 'Plus Jakartha Sans';
     font-size: 3vw;
@@ -1252,6 +1255,9 @@ hr.line4 {
 }
 
 /* assgnments section over */
+.mdblog{
+    background-color: #1f1f1f;
+}
 .Blog {
     place-items: center;
     padding: 1vw 1vw;
