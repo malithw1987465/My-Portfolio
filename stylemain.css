@@ -6,7 +6,7 @@
 
 body {
     background-image: url(assets/top-view-blue-decorative-frame.jpg);
-    background-color: #0014ec;
+    background-color: #2336e2;
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1535,8 +1535,8 @@ footer>small {
 
 footer>div>a>img {
     position: relative;
-    width: 2vw;
-    height: 2vw;
+    width: 2.5vw;
+    height: 2.5vw;
     margin: 1vw 1vw;
     border-radius: 100%;
     top: 34vw;
@@ -1545,7 +1545,7 @@ footer>div>a>img {
 
 footer>div>button {
     position: relative;
-    left: 34.5vw;
+    left: 33vw;
     top: 29vw;
     width: 4.5vw;
     height: 2vw;
