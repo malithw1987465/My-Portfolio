@@ -6,6 +6,7 @@
 
 body {
     background-image: url(assets/top-view-blue-decorative-frame.jpg);
+    background-color: #0014ec;
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1115,14 +1116,14 @@ hr.line4 {
     background-position:center center;
     background-size: cover;
 }
-.Assignments p{
+/* .Assignments p{
     position:relative;
     display: inline-block;
     top: 400vw;
     font-size: 1vw;
     margin-left: 2vw;
     text-align: center;
-}
+} */
 .btn-3 {
     background: rgb(7, 31, 255);
     background: linear-gradient(0deg, rgb(30, 37, 34) 0%, rgb(176, 173, 236) 100%);
@@ -1202,60 +1203,60 @@ hr.line4 {
     display: grid;
     min-height: 100vh;
     place-items: center;
-    padding: 30px 0;
-    width: 100%;
+    padding: 1vw 1vw;
     height: 100vh;
     background-size: cover;
-    top: 600px;
+    top: 25vw;
+    width: 90%;
     display: grid;
     min-height: 100vh;
     place-items: center;
     opacity: 100%;
+    position: absolute;
   }
   .Blog span{
     font-family: 'Poppins';
-    font-size: 52px;
+    font-size: 3.5vw;
     position: absolute;
-    top: 6850px;
+    top: 443vw;
     text-align: center;
     font-weight: bold;
     color: #ffffff;
   }
   .learn{
     font-family: 'Poppins';
-    font-size: 16px;
+    font-size: 1.2vw;
     position: absolute;
-    top: 6790px;
+    top: 440vw;
     text-align: center;
     font-weight: 200;
+    color: white;
   }
   .blog1{
     background-image: url(assets/blog1.png);
-    width: 362px;
-    height: 256px;
+    width: 27vw;
+    height: 17vw;
     position: absolute;
-    top: 7000px;
-    left: 175px;
+    top: 455vw;
+    left:5vw;
     border-radius: 20px;
-    padding-right: 50px;
     background-position:center center;
     background-size: cover;
   }
   .blog1:hover{
     transform: translateY(-5px);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: 0.5s;
     opacity: 0.7;
   }
   .blog2{
     background-image: url(assets/blog2.png);
-    width: 362px;
-    height: 256px;
+    width: 27vw;
+    height: 17vw;
     position: absolute;
-    top: 7000px;
-    left: 575px;
+    top: 455vw;
+    left: 37vw;
     border-radius: 20px;
-    padding-right: 50px;
     background-position:center center;
     background-size: cover;
   }
@@ -1267,13 +1268,12 @@ hr.line4 {
   }
   .blog3{
     background-image:url(assets/blog3.png) ;
-    width: 362px;
-    height: 256px;
+    width: 27vw;
+    height: 17vw;
     position: absolute;
-    top: 7000px;
-    left: 975px;
+    top: 455vw;
+    left: 69vw;
     border-radius: 20px;
-    padding-right: 50px;
     background-size: cover;
   }
   .blog3:hover{
