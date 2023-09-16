@@ -1425,24 +1425,26 @@ footer{
     background-color: white;
     position: absolute;
     top: 604.9vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
 footer>form{
     position: absolute;
-    left: 10vw;
+    left: 40vw;
     right: 0;
-    top: 20vw;
+    top: 11vw;
     width: fit-content;
 }
 .footerpic{
-    margin-bottom: 0px;
+    top: 20.9vw;
     width: 100%;
+    position: relative;
 }
 footer>small{
     position: absolute;
     left: 43vw;
-    top: 195vh;
+    top: 97vh;
     font-size: 1vw;
     font-weight: bold;
 }
@@ -1450,4 +1452,12 @@ footer>div>a>img{
     position: absolute;
     width: 4vw;
     height: 4vw;
+}
+footer>div>button{
+    position: relative;
+    left: 48vw;
+    top: 20vw;
+    width: 4vw;
+    background-color: yellow;
+    border-radius: 5px;
 }
