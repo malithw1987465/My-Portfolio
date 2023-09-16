@@ -1420,3 +1420,51 @@ hr.line4 {
     background-position: center;
     grid-column: 2/4;
 }
+/* Gallary section is over */
+.social{
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+    
+    img{
+      display: block;
+      width: 32px;
+    }
+  }
+  .Contactme{
+    display: flex;
+width: 1728px;
+height: 1043px;
+flex-direction: column;
+align-items: center;
+gap: 65px;
+flex-shrink: 0;
+  }
+  .Contactme p{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 60px;
+    left: 650px;
+  }
+  .Contactme h3{
+    top: 80px;
+    padding: 10px 30px;
+    left: 650px;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+  }
+.vector{
+    background-image: url(assets/Vector.png);
+    position: absolute;
+    width: 1519px;
+    height: 383px;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 658px;
+}
