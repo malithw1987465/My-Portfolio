@@ -909,7 +909,7 @@ hr.line4 {
     margin-left: 40.5vw;
     background-size: cover;
     border-radius: 5%;
-    margin-top: 20px;
+    margin-top: 1vw;
 }
 .petsnow{
     background-color: #D9D9D9;
@@ -948,7 +948,7 @@ hr.line4 {
     width: 23.5vw;
     height: 15vw;
     top: 2vw;
-    margin-left: 40.5vw;
+    margin-left: 38vw;
     background-size: cover;
     border-radius: 5%; 
 }
@@ -958,11 +958,11 @@ hr.line4 {
     background-repeat: no-repeat;
     width: 23.5vw;
     height: 15vw;
-    top: 16vw;
-    margin-left: 535px;
+    top: 17vw;
+    margin-left: 38vw;
     background-size: cover;
     border-radius: 5%;
-    margin-top: 20px;
+    margin-top: 1vw;
 }
 .desc1{
     position: absolute;
@@ -976,12 +976,10 @@ hr.line4 {
 }
 .desc2{
     position: absolute;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 500px;
-    width:480px ;
-    left: 500px ;
+    margin: 1vw 1vw;
+    height: 32vw;
+    width:30vw ;
+    left: 32vw ;
     background-repeat: no-repeat;
     border-radius: 20px;
     background-image: url(assets/bluee.png);
@@ -989,11 +987,9 @@ hr.line4 {
 }
 .desc3{
     position: absolute;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 500px;
-    width:480px ;
+   margin: 1vw 1vw;
+    height: 32vw;
+    width:30vw ;
     background-repeat: no-repeat;
     border-radius: 20px;
     background-image: url(assets/bluee.png);
@@ -1025,8 +1021,8 @@ hr.line4 {
     font-family: 'Playfair Display', sans-serif;
     font-weight: bolder;
     text-align: center;
-    margin-top: 40px;
-    font-size: 40px;
+    margin-top: 2vw;
+    font-size: 2vw;
 }
 .cce{
     font-family: 'Nunito Sans', sans-serif;
@@ -1035,14 +1031,14 @@ hr.line4 {
     text-align: center;
 }
 .Projects a{
-    font-size: 20px;
-    padding: 10px 30px;
+    font-size: 1.7vw;
+    padding: 1vw 2vw;
     background: #ffffff;
     border-radius: 20px;
     color: #000000;
     position: absolute;
-    margin-left: 140px;
-    margin-top: 20px;
+    margin-left: 9.5vw;
+    margin-top: 2vw;
     font-family: 'Plus Jakartha Sans';
     text-decoration: none;
   
