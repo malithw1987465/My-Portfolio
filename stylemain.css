@@ -1431,15 +1431,17 @@ footer{
 }
 footer>form{
     position: absolute;
-    left: 40vw;
+    left: 37.5vw;
     right: 0;
-    top: 11vw;
-    width: fit-content;
+    top: 9vw;
+    width: 20vw;
+    outline: none;
 }
 .footerpic{
-    top: 20.9vw;
+    top: 22.9vw;
     width: 100%;
     position: relative;
+    margin-bottom: 0;
 }
 footer>small{
     position: absolute;
@@ -1449,15 +1451,51 @@ footer>small{
     font-weight: bold;
 }
 footer>div>a>img{
-    position: absolute;
-    width: 4vw;
-    height: 4vw;
+    position: relative;
+    width: 2vw;
+    height: 2vw;
+    margin: 1vw 1vw;
+    border-radius: 100%;
+    top: 34vw;
+    left:42vw ;
 }
 footer>div>button{
     position: relative;
-    left: 48vw;
-    top: 20vw;
+    left: 33vw;
+    top: 29vw;
     width: 4vw;
     background-color: yellow;
     border-radius: 5px;
+}
+footer>h2{
+    position: absolute;
+    left: 41.5vw;
+    right: 0;
+    top: 2vw;
+    font-size: 2.5vw;
+}
+.Message{
+    position: relative;
+    line-height: 10;
+    width: 80%;
+    border: auto;
+    border-radius: 10px;
+    left: 2vw;
+}
+.name{
+border-radius:10px ;
+line-height: 2;
+
+}
+.Email{
+    border-radius: 10px;
+    line-height: 2;
+
+}
+hr{
+    position:absolute;
+    left: 44.5vw;
+    top: 5vw;
+    width: 6vw;
+    height: 5px;
 }
