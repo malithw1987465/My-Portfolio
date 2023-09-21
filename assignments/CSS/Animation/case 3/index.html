@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation Case 3</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="normalize.css">
+
+    <style>
+        div{
+            overflow: hidden;
+            width: 400%;
+            position: relative;
+            margin: 0;
+            left: 0;
+            animation: 10s slider infinite;
+            animation-direction: alternate;
+        }
+        div img{
+            width: 25%;
+            float: left;
+        }
+
+        @keyframes slider {
+            0%{
+                left: 0;
+            }
+            25%{
+                left: -100%;
+            }
+            50%{
+                left: -200%;
+            }
+            75%{
+                left: -300%;
+            }
+            100%{
+                left: -300%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div>
+        <img src="assets/pexels-belle-co-1155577.jpg">
+        <img src="assets/pexels-cmonphotography-1809644.jpg">
+        <img src="assets/pexels-ezra-comeau-2387418.jpg">
+        <img src="assets/pexels-tim-eiden-1222561.jpg">
+ 
+</div>
+</body>
+</html>
