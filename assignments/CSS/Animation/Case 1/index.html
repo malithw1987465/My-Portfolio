@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Case 1</title>
+    <style>
+        div {
+            position: relative;
+            width: 200px;
+            height: 70px;
+            background-color: brown;
+            border-radius: 10px;
+            animation-name: anima;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 5s;
+            animation-delay: 1s;
+
+        }
+
+        @keyframes anima {
+            0%{
+                background-color: blueviolet;
+                top: 0vh;
+                left: 2%;
+                transform: rotate(0deg);
+            }
+
+            25% {
+                background-color: brown;
+                top: 87vh;
+                left: 2%;
+                transform: rotate(180deg);
+            }
+            50%{
+                background-color: green;
+                top: 80vh;
+                left: 90%;
+                transform: rotate(360deg);
+
+
+            }
+            75%{
+                background-color: palevioletred;
+                top: 5%;
+                left: 80%;
+                transform: rotate(180deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+
+</body>
+
+</html>
