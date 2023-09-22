@@ -14,8 +14,9 @@ body {
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
-body>main{
-position: relative;
+
+body>main {
+    position: relative;
 }
 
 header {
@@ -748,9 +749,10 @@ hr.line4 {
     place-items: center;
     background-image: url(assets/bluee.png);
 } */
-.para3{
+.para3 {
     position: relative;
 }
+
 .service1 {
     font-family: 'Plus Jakartha Sans';
     font-size: 3vw;
@@ -1257,9 +1259,10 @@ hr.line4 {
 }
 
 /* assgnments section over */
-.mdblog{
+.mdblog {
     background-color: #1f1f1f;
 }
+
 .Blog {
     place-items: center;
     padding: 1vw 1vw;
@@ -1455,7 +1458,7 @@ hr.line4 {
     background-position: center;
     grid-column: 1/3;
     transform: scale(1.3);
-	z-index: 2;
+    z-index: 2;
 }
 
 .galary>div:nth-child(2) {
@@ -1604,7 +1607,7 @@ hr {
     border-top: 0.2vw solid #ffff11;
 }
 
-@media all and (max-width: 320px){
+@media all and (max-width: 320px) {
 
     body {
         background-image: url(assets/top-view-blue-decorative-frame.jpg);
@@ -1616,7 +1619,7 @@ hr {
         padding-bottom: 0px;
         margin-bottom: 0px;
     }
-    
+
     header {
         height: auto;
         width: 100vw;
@@ -1626,7 +1629,7 @@ hr {
         background-size: cover;
         z-index: 10;
     }
-    
+
     body>header>nav>ul>li {
         font-weight: bolder;
         display: inline-block;
@@ -1635,12 +1638,12 @@ hr {
         left: 31vw;
         font-size: 1.5vw;
     }
-    
+
     nav>ul>li>a {
         text-decoration: none;
         color: rgb(12, 24, 36);
     }
-    
+
     nav ul li a::after {
         content: '';
         width: 0;
@@ -1652,11 +1655,11 @@ hr {
         background: #fff;
         transition: width 0.4s;
     }
-    
+
     nav ul li a:hover::after {
         width: 50%;
     }
-    
+
     .intro6 {
         color: #000000;
         font-size: 1.5vw;
@@ -1666,7 +1669,7 @@ hr {
         font-family: sans-serif;
         font-weight: 600;
     }
-    
+
     .intro7 {
         color: #ff0000;
         font-size: 1.5vw;
@@ -1676,7 +1679,7 @@ hr {
         font-family: sans-serif;
         font-weight: 600;
     }
-    
+
     .profilepic {
         position: absolute;
         top: -9vw;
@@ -1684,7 +1687,7 @@ hr {
         width: 40vw;
         height: 100%;
     }
-    
+
     /* .rec {
         position: absolute;
         height: 40vw;
@@ -1693,7 +1696,7 @@ hr {
         top: -7vw;
         transform: rotate(1.5deg);
     } */
-    
+
     .hi {
         font-size: 10vw;
         line-height: 160vw;
@@ -1701,7 +1704,7 @@ hr {
         position: absolute;
         top: 6vw;
     }
-    
+
     .text-box h3 {
         font-size: 3vh;
         position: absolute;
@@ -1709,7 +1712,7 @@ hr {
         left: 20px;
         color: #07034d;
     }
-    
+
     .row {
         display: flex;
         align-items: center;
@@ -1718,7 +1721,7 @@ hr {
         margin-top: 33vw;
         color: #676767;
     }
-    
+
     .text-box a {
         color: #000000;
         text-decoration: none;
@@ -1728,14 +1731,14 @@ hr {
         border: 2px solid #4807fb;
         align-items: center;
     }
-    
+
     .text-box a span {
         top: 10vw;
         font-size: 4vh;
         line-height: 1.5vw;
         margin-left: 0.2vw;
     }
-    
+
     .text-box p {
         font-size: 7vh;
         position: absolute;
@@ -1743,14 +1746,14 @@ hr {
         left: 1vw;
         color: #84849d;
     }
-    
+
     /* image trnstion */
     @keyframes back {
         100% {
             background-position: 100vw 0;
         }
     }
-    
+
     .text-box h1 {
         font-size: 15.729vh;
         line-height: 15vw;
@@ -1765,7 +1768,7 @@ hr {
         background-position: 0 0;
         animation: back 20s linear infinite;
     }
-    
+
     .ReachMe {
         left: 1.5vw;
         opacity: 100%;
@@ -1776,11 +1779,11 @@ hr {
         font-size: 2vw;
         opacity: 1;
     }
-    
+
     .social-links {
         display: flex;
     }
-    
+
     .social-links a {
         width: 4vw;
         height: 4vw;
@@ -1796,7 +1799,7 @@ hr {
         top: 4.5vw;
         left: 12vw;
     }
-    
+
     .social-links a .fa-brands {
         font-size: 4vh;
         line-height: 9vh;
@@ -1804,7 +1807,7 @@ hr {
         z-index: 10;
         transition: color 0.5s;
     }
-    
+
     .social-links a::after {
         content: '';
         width: 100%;
@@ -1815,26 +1818,26 @@ hr {
         position: absolute;
         transition: 0.5s;
     }
-    
+
     .social-links a:hover::after {
         top: 0;
     }
-    
+
     .social-links a:hover.fa-brands {
         color: #ac1313;
     }
-    
+
     .social-links a:hover {
         transform: translateY(-2vh);
     }
-    
+
     /* section 1 is over */
-    
+
     .sec2 {
         position: relative;
         background-image: url(assets/top-view-blue-decorative-frame.jpg);
     }
-    
+
     .comma {
         background-image: url(assets/comma.png);
         position: absolute;
@@ -1845,7 +1848,7 @@ hr {
         top: 23vw;
         background-size: cover;
     }
-    
+
     .about {
         font-size: 5.2vw;
         font-weight: bolder;
@@ -1858,7 +1861,7 @@ hr {
         position: absolute;
         margin: 1vw 1vw;
     }
-    
+
     .me {
         font-size: 5.2vw;
         font-weight: bolder;
@@ -1871,7 +1874,7 @@ hr {
         position: absolute;
         margin: 1vw 1vw;
     }
-    
+
     .line1 {
         border: 1.5px solid rgb(0, 0, 0);
         height: 32vw;
@@ -1879,7 +1882,7 @@ hr {
         left: 45vw;
         top: 32vw;
     }
-    
+
     .prof2 {
         position: absolute;
         background-repeat: no-repeat;
@@ -1891,7 +1894,7 @@ hr {
         border-radius: 25px;
         padding: 2vw;
     }
-    
+
     .Map {
         background-image: url(assets/Mapwrap2.png);
         position: absolute;
@@ -1902,9 +1905,9 @@ hr {
         right: 0;
         background-size: cover;
         right: 10%;
-    
+
     }
-    
+
     .para1 {
         position: absolute;
         font-family: 'Poppins';
@@ -1913,7 +1916,7 @@ hr {
         font-size: 2vw;
         left: 50vw;
     }
-    
+
     .para2 {
         position: absolute;
         font-family: 'Poppins';
@@ -1923,7 +1926,7 @@ hr {
         font-size: 1.5vw;
         left: 50vw;
     }
-    
+
     .line2 {
         margin: 10vw 10vw;
         border: 1.5px solid rgb(0, 0, 0);
@@ -1933,7 +1936,7 @@ hr {
         top: 75vw;
         left: 60vw;
     }
-    
+
     .line3 {
         left: 25vw;
         margin: 10vw 10vw;
@@ -1942,7 +1945,7 @@ hr {
         position: absolute;
         top: 75vw;
     }
-    
+
     hr.line4 {
         border: 1.5px solid rgb(0, 0, 0);
         width: 80vw;
@@ -1951,7 +1954,7 @@ hr {
         top: 105vw;
         left: 10vw;
     }
-    
+
     .namepic {
         background-image: url(assets/user\ .png);
         position: absolute;
@@ -1962,19 +1965,19 @@ hr {
         border-radius: 2vw;
         padding: 0.75vw;
     }
-    
+
     .namepic:hover {
         box-shadow: 0px 3px 40px 0px #1800f0;
         border: 10px solid transparent
     }
-    
+
     .namedesc {
         font-size: 1.5vw;
         position: absolute;
         top: 96vw;
         left: 11vw;
     }
-    
+
     .NAME {
         position: absolute;
         top: 93vw;
@@ -1983,14 +1986,14 @@ hr {
         font-weight: bold;
         font-size: 1.3vw;
     }
-    
+
     .namedesc1 {
         font-size: 1.5vw;
         position: absolute;
         top: 97.5vw;
         left: 16.5vw;
     }
-    
+
     .Addresspic {
         background-image: url(assets/pin.png);
         position: absolute;
@@ -2001,12 +2004,12 @@ hr {
         left: 49vw;
         border-radius: 25px;
     }
-    
+
     .Addresspic:hover {
         box-shadow: 0px 3px 40px 0px #000000;
         border: 10px solid transparent
     }
-    
+
     .Addressname {
         position: absolute;
         top: 92.5vw;
@@ -2014,16 +2017,16 @@ hr {
         font-family: 'Plus Jakarta Sans';
         font-weight: bold;
         font-size: 1.3vw;
-    
+
     }
-    
+
     .myaddress {
         font-size: 1.5vw;
         position: absolute;
         top: 96vw;
         left: 45vw;
     }
-    
+
     .contact {
         background-image: url(assets/telephone.png);
         position: absolute;
@@ -2032,14 +2035,14 @@ hr {
         height: 4.2vw;
         left: 81vw;
         border-radius: 25px;
-    
+
     }
-    
+
     .contact:hover {
         box-shadow: 0px 3px 40px 0px #000000;
         transform: translateY(-10px);
     }
-    
+
     .CONTACT {
         position: absolute;
         top: 93vw;
@@ -2048,14 +2051,14 @@ hr {
         font-weight: bold;
         font-size: 1.3vw;
     }
-    
+
     .contactnum {
         font-size: 1.5vw;
         position: absolute;
         top: 96vw;
         left: 79vw;
     }
-    
+
     .Age {
         background-image: url(assets/age.png);
         position: absolute;
@@ -2066,12 +2069,12 @@ hr {
         left: 19.5vw;
         background-size: cover;
     }
-    
+
     .Age:hover {
         box-shadow: 0px 3px 40px 0px #000000;
         border: 10px solid transparent
     }
-    
+
     .AGE {
         position: absolute;
         top: 115vw;
@@ -2080,14 +2083,14 @@ hr {
         font-weight: bold;
         font-size: 1.3vw;
     }
-    
+
     .myage {
         position: absolute;
         top: 118vw;
         left: 18.5vw;
         font-size: 1.5vw;
     }
-    
+
     .email {
         background-image: url(assets/mail.png);
         position: absolute;
@@ -2098,12 +2101,12 @@ hr {
         left: 50vw;
         background-size: cover;
     }
-    
+
     .email:hover {
         box-shadow: 0px 3px 40px 0px #000000;
         border: 10px solid transparent
     }
-    
+
     .EMAIL {
         position: absolute;
         top: 115vw;
@@ -2112,7 +2115,7 @@ hr {
         font-weight: bold;
         font-size: 1.3vw;
     }
-    
+
     .myemail {
         position: absolute;
         top: 118vw;
@@ -2120,7 +2123,7 @@ hr {
         text-decoration: none;
         font-size: 1.5vw;
     }
-    
+
     .linkedina {
         background-image: url(assets/linkedin\ .png);
         position: absolute;
@@ -2131,12 +2134,12 @@ hr {
         left: 80vw;
         font-weight: 500;
     }
-    
+
     .linkedina:hover {
         box-shadow: 0px 3px 40px 0px #000000;
         border: 10px solid transparent
     }
-    
+
     .LINKEDIN {
         position: absolute;
         top: 115vw;
@@ -2145,7 +2148,7 @@ hr {
         font-weight: bold;
         font-size: 1.3vw;
     }
-    
+
     .mylinkedin {
         font-size: 1.5vw;
         position: absolute;
@@ -2153,9 +2156,9 @@ hr {
         left: 80.5vw;
         text-decoration: none;
     }
-    
+
     /* Personal section is over */
-    
+
     .EDUCATION {
         position: absolute;
         font-size: 2vw;
@@ -2165,7 +2168,7 @@ hr {
         font-weight: bold;
         left: 2vw;
     }
-    
+
     .educationpic {
         background-image: url(assets/education.png);
         position: absolute;
@@ -2176,26 +2179,26 @@ hr {
         left: 2vw;
         background-size: cover;
     }
-    
+
     .contents {
         padding: 0px 5vw;
         border-left: 3.0px solid #d40505;
         position: absolute;
         top: 150vw;
     }
-    
+
     .contents h3 {
         color: #000000;
         font-size: 1.5vw;
         font-family: 'Plus Jakartha Sans';
     }
-    
+
     .contents h4 {
         color: #000000;
         font-family: 'Plus Jakartha Sans';
         font-size: 1.5vw;
     }
-    
+
     .box1 {
         position: relative;
         left: 49vw;
@@ -2208,7 +2211,7 @@ hr {
         margin-bottom: 1vw;
         text-align: center;
     }
-    
+
     .box2 {
         position: relative;
         left: 20vw;
@@ -2222,17 +2225,17 @@ hr {
         margin-bottom: 3vw;
         text-align: center;
     }
-    
+
     .box1:hover {
         box-shadow: 0px 3px 40px 0px #200388;
         border: 10px solid transparent;
     }
-    
+
     .box2:hover {
         box-shadow: 0px 3px 40px 0px #200388;
         border: 10px solid transparent
     }
-    
+
     .techstack {
         position: absolute;
         top: 205vw;
@@ -2244,7 +2247,7 @@ hr {
         background-repeat: no-repeat;
         opacity: 100%;
     }
-    
+
     .figma {
         background-image: url(assets/figma.png);
         width: 8vw;
@@ -2253,7 +2256,7 @@ hr {
         background-size: cover;
         position: absolute;
     }
-    
+
     .java {
         background-image: url(assets/java.png);
         width: 8vw;
@@ -2263,7 +2266,7 @@ hr {
         background-size: cover;
         position: absolute;
     }
-    
+
     .css {
         background-image: url(assets/css-3.png);
         width: 8vw;
@@ -2274,7 +2277,7 @@ hr {
         opacity: 100%;
         position: absolute;
     }
-    
+
     .html {
         background-image: url(assets/html-5.png);
         width: 8vw;
@@ -2284,7 +2287,7 @@ hr {
         background-size: cover;
         position: absolute;
     }
-    
+
     .selenium {
         background-image: url(assets/selenium.png);
         width: 8vw;
@@ -2294,7 +2297,7 @@ hr {
         background-size: cover;
         position: absolute;
     }
-    
+
     .photoshop {
         background-image: url(assets/photoshop.png);
         width: 8vw;
@@ -2304,7 +2307,7 @@ hr {
         background-size: cover;
         position: absolute;
     }
-    
+
     .mysql {
         background-image: url(assets/mysql.png);
         width: 8vw;
@@ -2314,7 +2317,7 @@ hr {
         background-size: cover;
         position: absolute;
     }
-    
+
     .javascript {
         background-image: url(assets/js.png);
         width: 8vw;
@@ -2324,7 +2327,7 @@ hr {
         background-size: cover;
         position: absolute;
     }
-    
+
     .Techstack {
         font-family: 'Roboto';
         font-size: 2.5vw;
@@ -2332,11 +2335,11 @@ hr {
         position: absolute;
         top: -5vw;
         left: 35vw;
-    
+
     }
-    
+
     /* Education section over */
-    
+
     /* .services{
         display: grid;
         padding: 1.5vw 0;
@@ -2347,9 +2350,10 @@ hr {
         place-items: center;
         background-image: url(assets/bluee.png);
     } */
-    .para3{
+    .para3 {
         position: relative;
     }
+
     .service1 {
         font-family: 'Plus Jakartha Sans';
         font-size: 3vw;
@@ -2358,7 +2362,7 @@ hr {
         top: 220vw;
         color: #000000;
     }
-    
+
     .service2 {
         font-family: 'Plus Jakartha Sans';
         font-size: 3vw;
@@ -2368,7 +2372,7 @@ hr {
         text-align: center;
         color: #d8cad3;
     }
-    
+
     .S-section1 {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -2384,7 +2388,7 @@ hr {
         width: 16vw;
         height: 22vw;
     }
-    
+
     .S-section2 {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -2400,7 +2404,7 @@ hr {
         width: 16vw;
         height: 22vw;
     }
-    
+
     .S-section3 {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -2416,7 +2420,7 @@ hr {
         width: 16vw;
         height: 22vw;
     }
-    
+
     .S-section4 {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -2432,7 +2436,7 @@ hr {
         width: 16vw;
         height: 22vw;
     }
-    
+
     .services-list div i {
         font-size: 5vw;
         font-weight: bolder;
@@ -2440,57 +2444,57 @@ hr {
         margin-top: 2vw;
         margin-left: 2vw;
     }
-    
+
     .services-list div h2 {
         font-family: Roboto Flex;
         font-size: 1.7vw;
         text-align: center;
     }
-    
+
     .services-list div p {
         font-family: Roboto Flex;
         font-size: 1.5vw;
         text-align: center;
         color: #000000;
     }
-    
+
     .services-list div {
         background: #d9ccf3;
         font-size: 1.5vw;
         transition: 0.5s, transform 0.5s;
-    
+
     }
-    
+
     .services-list div:hover {
         background: #082454;
         transform: translateY(-10px);
         color: white;
     }
-    
+
     .services-list div a {
         text-decoration: none;
         font-size: 1.5vw;
         text-align: center;
         color: rgb(0, 0, 0);
     }
-    
+
     .services-list div a:hover {
         transform: translateY(-10px);
         color: rgb(255, 255, 255);
     }
-    
+
     .services-list div p:hover {
         transform: translateY(-10px);
         color: white;
     }
-    
+
     /* service section over */
     .Projects {
         position: absolute;
         height: auto;
         background-image: url(assets/bluee.png);
     }
-    
+
     .projects {
         font-family: 'Playfair Display', serif;
         position: absolute;
@@ -2499,7 +2503,7 @@ hr {
         font-size: 3vw;
         color: #000000;
     }
-    
+
     .chatconnect {
         background-color: #D9D9D9;
         width: 62vw;
@@ -2509,7 +2513,7 @@ hr {
         left: 16.2vw;
         border-radius: 20px;
     }
-    
+
     .chatpic1 {
         position: absolute;
         background-image: url(assets/chatconnect.png);
@@ -2521,7 +2525,7 @@ hr {
         background-size: cover;
         border-radius: 5%;
     }
-    
+
     .chatpic2 {
         position: absolute;
         background-image: url(assets/chatconnet2.png);
@@ -2534,7 +2538,7 @@ hr {
         border-radius: 5%;
         margin-top: 1vw;
     }
-    
+
     .petsnow {
         background-color: #D9D9D9;
         width: 64vw;
@@ -2544,7 +2548,7 @@ hr {
         left: 15vw;
         border-radius: 20px;
     }
-    
+
     .petpic {
         position: absolute;
         background-image: url(assets/petsnow\ \(2\).png);
@@ -2557,7 +2561,7 @@ hr {
         border-radius: 5%;
         margin-top: 30px;
     }
-    
+
     .grocerease {
         background-color: #D9D9D9;
         width: 64vw;
@@ -2567,7 +2571,7 @@ hr {
         left: 15vw;
         border-radius: 20px;
     }
-    
+
     .grocpic {
         position: absolute;
         background-image: url(assets/grocer.png);
@@ -2579,7 +2583,7 @@ hr {
         background-size: cover;
         border-radius: 5%;
     }
-    
+
     .grocpic2 {
         position: absolute;
         background-image: url(assets/grocer2.png);
@@ -2592,7 +2596,7 @@ hr {
         border-radius: 5%;
         margin-top: 1vw;
     }
-    
+
     .desc1 {
         position: absolute;
         margin: 1vw 1vw;
@@ -2603,7 +2607,7 @@ hr {
         background-image: url(assets/bluee.png);
         opacity: 70%;
     }
-    
+
     .desc2 {
         position: absolute;
         margin: 1vw 1vw;
@@ -2615,7 +2619,7 @@ hr {
         background-image: url(assets/bluee.png);
         opacity: 70%;
     }
-    
+
     .desc3 {
         position: absolute;
         margin: 1vw 1vw;
@@ -2626,7 +2630,7 @@ hr {
         background-image: url(assets/bluee.png);
         opacity: 70%;
     }
-    
+
     .desc3:hover {
         background: linear-gradient(-45deg, #3558e7, #000000);
         transform: translateY(-5px);
@@ -2634,7 +2638,7 @@ hr {
         transition: 0.5s;
         opacity: 0.5;
     }
-    
+
     .desc2:hover {
         background: linear-gradient(-45deg, #3857d4, #000000);
         transform: translateY(-5px);
@@ -2642,7 +2646,7 @@ hr {
         transition: 0.5s;
         opacity: 0.5;
     }
-    
+
     .desc1:hover {
         background: linear-gradient(-45deg, #4079ec, #040007);
         transform: translateY(-5px);
@@ -2650,7 +2654,7 @@ hr {
         transition: 0.5s;
         opacity: 0.5;
     }
-    
+
     .ccc {
         font-family: 'Playfair Display', sans-serif;
         font-weight: bolder;
@@ -2658,14 +2662,14 @@ hr {
         margin-top: 2vw;
         font-size: 2vw;
     }
-    
+
     .cce {
         font-family: 'Nunito Sans', sans-serif;
         font-size: 1.5vw;
         margin-top: 2vw;
         text-align: center;
     }
-    
+
     .Projects a {
         font-size: 1.7vw;
         padding: 1vw 2vw;
@@ -2677,14 +2681,14 @@ hr {
         margin-top: 2vw;
         font-family: 'Plus Jakartha Sans';
         text-decoration: none;
-    
+
     }
-    
+
     /* service section over */
     .Assignments {
         position: absolute;
     }
-    
+
     .assign {
         position: absolute;
         top: 400vw;
@@ -2692,7 +2696,7 @@ hr {
         font-size: 2.5vw;
         font-family: 'Roboto';
     }
-    
+
     .assignpic1 {
         background-image: url(assets/assignment.png);
         top: 405vw;
@@ -2706,7 +2710,7 @@ hr {
         background-position: center center;
         background-size: cover;
     }
-    
+
     .assignpic2 {
         background-image: url(assets/assignment.png);
         top: 405vw;
@@ -2719,7 +2723,7 @@ hr {
         background-position: center center;
         background-size: cover;
     }
-    
+
     .assignpic3 {
         background-image: url(assets/assignment.png);
         top: 405vw;
@@ -2732,7 +2736,7 @@ hr {
         background-position: center center;
         background-size: cover;
     }
-    
+
     .assignpic4 {
         background-image: url(assets/assignment.png);
         top: 405vw;
@@ -2745,7 +2749,7 @@ hr {
         background-position: center center;
         background-size: cover;
     }
-    
+
     .assignpic5 {
         background-image: url(assets/assignment.png);
         top: 405vw;
@@ -2758,7 +2762,7 @@ hr {
         background-position: center center;
         background-size: cover;
     }
-    
+
     /* .Assignments p{
         position:relative;
         display: inline-block;
@@ -2779,7 +2783,7 @@ hr {
         position: absolute;
         left: 47vw;
     }
-    
+
     .btn-3 span {
         font-size: 1.2vw;
         position: relative;
@@ -2789,7 +2793,7 @@ hr {
         font-family: 'Roboto';
         text-align: center;
     }
-    
+
     .btn-3:before,
     .btn-3:after {
         position: absolute;
@@ -2799,34 +2803,34 @@ hr {
         background: rgb(0, 0, 0);
         transition: all 0.3s ease;
     }
-    
+
     .btn-3:before {
         height: 0%;
         width: 2px;
     }
-    
+
     .btn-3:after {
         width: 0%;
         height: 2px;
     }
-    
+
     .btn-3:hover {
         background: transparent;
         box-shadow: none;
     }
-    
+
     .btn-3:hover:before {
         height: 100%;
     }
-    
+
     .btn-3:hover:after {
         width: 100%;
     }
-    
+
     .btn-3 span:hover {
         color: rgb(155, 234, 8);
     }
-    
+
     .btn-3 span:before,
     .btn-3 span:after {
         position: absolute;
@@ -2836,29 +2840,30 @@ hr {
         background: rgb(0, 0, 0);
         transition: all 0.3s ease;
     }
-    
+
     .btn-3 span:before {
         width: 2px;
         height: 0%;
     }
-    
+
     .btn-3 span:after {
         width: 0%;
         height: 2px;
     }
-    
+
     .btn-3 span:hover:before {
         height: 100%;
     }
-    
+
     .btn-3 span:hover:after {
         width: 100%;
     }
-    
+
     /* assgnments section over */
-    .mdblog{
+    .mdblog {
         background-color: #1f1f1f;
     }
+
     .Blog {
         place-items: center;
         padding: 1vw 1vw;
@@ -2872,123 +2877,123 @@ hr {
         opacity: 100%;
         position: absolute;
     }
-    
+
     .Blog span {
         font-family: 'Poppins';
-        font-size: 3.5vw;
+        font-size: 5.5vw;
         position: absolute;
-        top: 443vw;
-        left: 39vw;
+        top: 431vw;
+        left: 32vw;
         text-align: center;
         font-weight: bold;
         color: #ffffff;
     }
-    
+
     .learn {
         font-family: 'Poppins';
-        font-size: 1.2vw;
+        font-size: 2.5vw;
         position: absolute;
-        top: 440vw;
-        left: 44vw;
+        top: 426vw;
+        left: 36vw;
         text-align: center;
         font-weight: 200;
         color: white;
     }
-    
+
     .blog1 {
         background-image: url(assets/blog1.png);
         width: 27vw;
         height: 17vw;
         position: absolute;
-        top: 455vw;
+        top: 449vw;
         left: 5vw;
         border-radius: 20px;
         background-position: center center;
         background-size: cover;
     }
-    
+
     .blog1:hover {
         transform: translateY(-5px);
         color: rgb(255, 255, 255);
         transition: 0.5s;
         opacity: 0.7;
     }
-    
+
     .blog2 {
         background-image: url(assets/blog2.png);
         width: 27vw;
         height: 17vw;
         position: absolute;
-        top: 455vw;
+        top: 449vw;
         left: 37vw;
         border-radius: 20px;
         background-position: center center;
         background-size: cover;
     }
-    
+
     .blog2:hover {
         transform: translateY(-5px);
         color: rgb(0, 0, 0);
         transition: 0.5s;
         opacity: 0.7;
     }
-    
+
     .blog3 {
         background-image: url(assets/blog3.png);
         width: 27vw;
         height: 17vw;
         position: absolute;
-        top: 455vw;
+        top: 449vw;
         left: 69vw;
         border-radius: 20px;
         background-size: cover;
     }
-    
+
     .blog3:hover {
         transform: translateY(-5px);
         color: white;
         transition: 0.5s;
         opacity: 0.7;
     }
-    
+
     .Blog p {
         font-family: 'Poppins';
-        font-size: 1.3vw;
+        font-size: 2vw;
         font-weight: bold;
         color: #c1bcbc;
         top: 18vw;
         position: absolute;
     }
-    
+
     .follow {
         font-family: 'Poppins';
-        font-size: 1.3vw;
+        font-size: 2.3vw;
         position: absolute;
         top: 481vw;
         text-align: center;
         font-weight: bolder;
         color: #000000;
     }
-    
+
     .medium {
         background-image: url(assets/medium.png);
-        width: 3vw;
-        height: 3vw;
+        width: 4vw;
+        height: 4vw;
         position: absolute;
         top: 480vw;
-        left: 54vw;
+        left: 56vw;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
-    
+
     .Certificates {
         background-image: url(assets/certificate.png);
         background-color: #000000;
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 50vw;
+        height: 53.5vw;
         top: 510vw;
         position: absolute;
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -2997,7 +3002,7 @@ hr {
         margin: 0;
         padding: 0;
     }
-    
+
     .certifi {
         top: 1vw;
         position: absolute;
@@ -3006,7 +3011,7 @@ hr {
         color: #42307D;
         font-family: 'Inter', sans-serif;
     }
-    
+
     .Certificates p {
         top: 5vw;
         position: absolute;
@@ -3015,7 +3020,7 @@ hr {
         color: #42307D;
         font-family: 'Inter', sans-serif;
     }
-    
+
     .swiper {
         position: absolute;
         top: 15vw;
@@ -3023,31 +3028,31 @@ hr {
         padding-top: 2vw;
         padding-bottom: 2vw;
     }
-    
+
     .swiper-slide {
         background-position: center;
         background-size: cover;
         width: 20vw;
         height: 20vw;
     }
-    
+
     .swiper-slide img {
         display: block;
         width: 100%;
     }
-    
+
     /* certificate section over */
     .galary {
         top: 400vw;
         position: absolute;
-        top: 560vw;
+        top: 563vw;
         width: 100%;
-        height: 100%;
+        height: 280%;
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(4, 1fr);
     }
-    
+
     .galary>div:first-child {
         background: url("assets/imae1.jpeg");
         background-size: cover;
@@ -3056,13 +3061,13 @@ hr {
         transform: scale(1.3);
         z-index: 2;
     }
-    
+
     .galary>div:nth-child(2) {
         background: url("assets/imae2.jpeg");
         background-size: cover;
         background-position: center;
     }
-    
+
     .galary>div:nth-child(3) {
         background: url("assets/imae3.jpeg");
         background-size: cover;
@@ -3070,130 +3075,130 @@ hr {
         grid-column: 4/5;
         grid-row: 1/4;
     }
-    
+
     .galary>div:nth-child(4) {
         background: url("assets/imae4.jpeg");
         background-size: cover;
         background-position: center;
     }
-    
+
     .galary>div:nth-child(5) {
         background: url("assets/imae5.jpeg");
         background-size: cover;
         background-position: center;
     }
-    
+
     .galary>div:nth-child(6) {
         background: url("assets/imae7.jpeg");
         background-size: cover;
         background-position: center;
     }
-    
+
     .galary>div:nth-child(7) {
         background: url("assets/imae9.jpeg");
         background-size: cover;
         background-position: center;
     }
-    
+
     .galary>div:nth-child(8) {
         background: url("assets/WhatsApp\ Image\ 2023-01-30\ at\ 09.04.07\ \(1\).jpeg");
         background-size: cover;
         background-position: center;
         grid-column: 2/4;
     }
-    
+
     /* Gallary section is over */
     footer {
         background-color: white;
         position: absolute;
         top: 657vw;
-        height: 100vh;
+        height: 94vh;
         margin: 0;
         padding: 0;
     }
-    
+
     footer>form {
         position: absolute;
-        left: 37.5vw;
+        left: 33.5vw;
         right: 0;
-        top: 9vw;
+        top: 24vw;
         width: 20vw;
         outline: none;
     }
-    
+
     .footerpic {
-        top: 145.6vw;
+        top: 130.9vw;
         width: 100%;
         position: relative;
         margin-bottom: 0;
     }
-    
+
     footer>small {
         position: absolute;
-        left: 43vw;
-        top: 99vh;
-        font-size: 1vw;
+        left: 37vw;
+        top: 92.5vh;
+        font-size: 2vw;
         font-weight: bold;
     }
-    
+
     footer>div>a>img {
         position: relative;
-        width: 2.5vw;
-        height: 2.5vw;
+        width: 6.5vw;
+        height: 6.5vw;
         margin: 1vw 1vw;
         border-radius: 100%;
-        top: 34vw;
-        left: 42vw;
+        top: 109vw;
+        left: 36vw;
     }
-    
+
     footer>div>button {
         position: relative;
-        left: 33vw;
-        top: 29vw;
-        width: 4.5vw;
-        height: 2vw;
+        left: 13vw;
+        top: 91vw;
+        width: 15.5vw;
+        height: 7vw;
         background-color: yellow;
         border-radius: 5px;
         border: 2px solid black;
     }
-    
+
     footer>h2 {
         position: absolute;
-        left: 42.5vw;
+        left: 36.5vw;
         right: 0;
         top: 2vw;
-        font-size: 2.5vw;
+        font-size: 5.5vw;
     }
-    
+
     .Message {
         position: relative;
-        line-height: 10;
-        width: 80%;
+        line-height: 3;
+        width: 30vw;
         border: auto;
         border-radius: 10px;
-        left: 4vw;
+        left: 1vw;
         margin-top: 1vw;
     }
-    
+
     .name {
         position: relative;
         border-radius: 10px;
-        line-height: 2;
+        line-height: 1;
         left: 1vw;
-        width: 16vw;
+        width: 30vw;
         margin-top: 2vw;
-    
+
     }
-    
+
     .Email {
         position: relative;
         border-radius: 10px;
-        line-height: 2;
+        line-height: 1;
         left: 1vw;
-        width: 16vw;
-    
+        width: 30vw;
+
     }
-    
+
     hr {
         position: absolute;
         left: 45.5vw;
