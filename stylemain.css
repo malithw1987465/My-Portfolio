@@ -1972,23 +1972,23 @@ hr {
     }
 
     .namedesc {
-        font-size: 1.5vw;
+        font-size: 2vw;
         position: absolute;
         top: 96vw;
-        left: 11vw;
+        left: 9vw;
     }
 
     .NAME {
         position: absolute;
         top: 93vw;
-        left: 18vw;
+        left: 17vw;
         font-family: 'Plus Jakarta Sans';
         font-weight: bold;
-        font-size: 1.3vw;
+        font-size: 2.3vw;
     }
 
     .namedesc1 {
-        font-size: 1.5vw;
+        font-size: 2vw;
         position: absolute;
         top: 97.5vw;
         left: 16.5vw;
@@ -2013,15 +2013,15 @@ hr {
     .Addressname {
         position: absolute;
         top: 92.5vw;
-        left: 49.5vw;
+        left: 47.5vw;
         font-family: 'Plus Jakarta Sans';
         font-weight: bold;
-        font-size: 1.3vw;
+        font-size: 2dvi;
 
     }
 
     .myaddress {
-        font-size: 1.5vw;
+        font-size: 2vw;
         position: absolute;
         top: 96vw;
         left: 45vw;
@@ -2033,7 +2033,7 @@ hr {
         top: 87vw;
         width: 4vw;
         height: 4.2vw;
-        left: 81vw;
+        left: 79vw;
         border-radius: 25px;
 
     }
@@ -2046,17 +2046,17 @@ hr {
     .CONTACT {
         position: absolute;
         top: 93vw;
-        left: 80.9vw;
+        left: 77.9vw;
         font-family: 'Plus Jakarta Sans';
         font-weight: bold;
-        font-size: 1.3vw;
+        font-size: 2vw;
     }
 
     .contactnum {
-        font-size: 1.5vw;
+        font-size: 2vw;
         position: absolute;
         top: 96vw;
-        left: 79vw;
+        left: 76vw;
     }
 
     .Age {
@@ -2081,7 +2081,7 @@ hr {
         left: 20vw;
         font-family: 'Plus Jakarta Sans';
         font-weight: bold;
-        font-size: 1.3vw;
+        font-size: 2vw;
     }
 
     .myage {
@@ -2113,7 +2113,7 @@ hr {
         left: 51vw;
         font-family: 'Plus Jakarta Sans';
         font-weight: bold;
-        font-size: 1.3vw;
+        font-size: 2vw;
     }
 
     .myemail {
@@ -2146,7 +2146,7 @@ hr {
         left: 80.3vw;
         font-family: 'Plus Jakarta Sans';
         font-weight: bold;
-        font-size: 1.3vw;
+        font-size: 2vw;
     }
 
     .mylinkedin {
@@ -2161,21 +2161,21 @@ hr {
 
     .EDUCATION {
         position: absolute;
-        font-size: 2vw;
+        font-size: 3vw;
         color: rgb(0, 0, 0);
         font-family: 'Roboto';
         top: 149vw;
         font-weight: bold;
-        left: 2vw;
+        left: 3vw;
     }
 
     .educationpic {
         background-image: url(assets/education.png);
         position: absolute;
         background-repeat: no-repeat;
-        top: 140vw;
-        width: 9vw;
-        height: 9vw;
+        top: 134vw;
+        width: 14vw;
+        height: 14vw;
         left: 2vw;
         background-size: cover;
     }
@@ -2184,24 +2184,26 @@ hr {
         padding: 0px 5vw;
         border-left: 3.0px solid #d40505;
         position: absolute;
-        top: 150vw;
+        top: 144vw;
+        left: 50vw;
+
     }
 
     .contents h3 {
         color: #000000;
-        font-size: 1.5vw;
+        font-size: 2.5vw;
         font-family: 'Plus Jakartha Sans';
     }
 
     .contents h4 {
         color: #000000;
         font-family: 'Plus Jakartha Sans';
-        font-size: 1.5vw;
+        font-size: 1.9vw;
     }
 
     .box1 {
         position: relative;
-        left: 49vw;
+        left: -3vw;
         padding: 1.5vw;
         border: 1px solid #FDCC1F;
         background-color: #FDCC1F;
@@ -2214,7 +2216,7 @@ hr {
 
     .box2 {
         position: relative;
-        left: 20vw;
+        left: -45vw;
         top: 3vw;
         border: 1px solid #FDCC1F;
         background-color: #FDCC1F;
@@ -2330,11 +2332,11 @@ hr {
 
     .Techstack {
         font-family: 'Roboto';
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         font-weight: bold;
         position: absolute;
         top: -5vw;
-        left: 35vw;
+        left: 30vw;
 
     }
 
@@ -2356,10 +2358,10 @@ hr {
 
     .service1 {
         font-family: 'Plus Jakartha Sans';
-        font-size: 3vw;
+        font-size: 5vw;
         position: absolute;
-        left: 45vw;
-        top: 220vw;
+        left: 42vw;
+        top: 218vw;
         color: #000000;
     }
 
@@ -2368,7 +2370,7 @@ hr {
         font-size: 3vw;
         position: absolute;
         left: 28vw;
-        top: 223vw;
+        top: 224vw;
         text-align: center;
         color: #d8cad3;
     }
@@ -2498,9 +2500,9 @@ hr {
     .projects {
         font-family: 'Playfair Display', serif;
         position: absolute;
-        left: 43vw;
-        top: 262vw;
-        font-size: 3vw;
+        left: 38vw;
+        top: 260vw;
+        font-size: 5vw;
         color: #000000;
     }
 
@@ -2518,8 +2520,8 @@ hr {
         position: absolute;
         background-image: url(assets/chatconnect.png);
         background-repeat: no-repeat;
-        width: 17vw;
-        height: 12vw;
+        width: 19vw;
+        height: 14vw;
         top: 2vw;
         margin-left: 40.5vw;
         background-size: cover;
@@ -2530,8 +2532,8 @@ hr {
         position: absolute;
         background-image: url(assets/chatconnet2.png);
         background-repeat: no-repeat;
-        width: 17vw;
-        height: 12vw;
+        width: 19vw;
+        height: 14vw;
         top: 16vw;
         margin-left: 40.5vw;
         background-size: cover;
@@ -2554,8 +2556,8 @@ hr {
         background-image: url(assets/petsnow\ \(2\).png);
         background-repeat: no-repeat;
         width: 30vw;
-        height: 17vw;
-        top: 5vw;
+        height: 21vw;
+        top: -3vw;
         margin-left: 1vw;
         background-size: cover;
         border-radius: 5%;
@@ -2576,9 +2578,9 @@ hr {
         position: absolute;
         background-image: url(assets/grocer.png);
         background-repeat: no-repeat;
-        width: 23.5vw;
-        height: 15vw;
-        top: 2vw;
+        width: 22.5vw;
+        height: 14vw;
+        top: 1vw;
         margin-left: 38vw;
         background-size: cover;
         border-radius: 5%;
@@ -2588,9 +2590,9 @@ hr {
         position: absolute;
         background-image: url(assets/grocer2.png);
         background-repeat: no-repeat;
-        width: 23.5vw;
-        height: 15vw;
-        top: 17vw;
+        width: 22.5vw;
+        height: 14vw;
+        top: 15vw;
         margin-left: 38vw;
         background-size: cover;
         border-radius: 5%;
@@ -2665,13 +2667,13 @@ hr {
 
     .cce {
         font-family: 'Nunito Sans', sans-serif;
-        font-size: 1.5vw;
+        font-size: 2vw;
         margin-top: 2vw;
         text-align: center;
     }
 
     .Projects a {
-        font-size: 1.7vw;
+        font-size: 1.9vw;
         padding: 1vw 2vw;
         background: #ffffff;
         border-radius: 20px;
@@ -2692,7 +2694,7 @@ hr {
     .assign {
         position: absolute;
         top: 400vw;
-        left: 38vw;
+        left: 40vw;
         font-size: 2.5vw;
         font-family: 'Roboto';
     }
@@ -2702,8 +2704,8 @@ hr {
         top: 405vw;
         position: absolute;
         margin-bottom: 1vw;
-        height: 10vw;
-        width: 10vw;
+        height: 13vw;
+        width: 13vw;
         left: 13vw;
         margin-right: 20px;
         background-repeat: no-repeat;
@@ -2716,8 +2718,8 @@ hr {
         top: 405vw;
         position: absolute;
         margin-bottom: 10px;
-        height: 10vw;
-        width: 10vw;
+        height: 13vw;
+        width: 13vw;
         left: 28vw;
         background-repeat: no-repeat;
         background-position: center center;
@@ -2729,8 +2731,8 @@ hr {
         top: 405vw;
         position: absolute;
         margin-bottom: 10px;
-        height: 10vw;
-        width: 10vw;
+        height: 13vw;
+        width: 13vw;
         left: 43vw;
         background-repeat: no-repeat;
         background-position: center center;
@@ -2742,8 +2744,8 @@ hr {
         top: 405vw;
         position: absolute;
         margin-bottom: 10px;
-        height: 10vw;
-        width: 10vw;
+        height: 13vw;
+        width: 13vw;
         left: 58vw;
         background-repeat: no-repeat;
         background-position: center center;
@@ -2755,8 +2757,8 @@ hr {
         top: 405vw;
         position: absolute;
         margin-bottom: 10px;
-        height: 10vw;
-        width: 10vw;
+        height: 13vw;
+        width: 13vw;
         left: 73vw;
         background-repeat: no-repeat;
         background-position: center center;
@@ -2773,25 +2775,28 @@ hr {
     } */
     .btn-3 {
         background: rgb(7, 31, 255);
-        background: linear-gradient(0deg, rgb(30, 37, 34) 0%, rgb(170, 79, 186) 100%);
-        width: 7vw;
-        height: 2.5vw;
+        background: linear-gradient(0deg, rgb(30, 37, 34) 0%, rgb(255, 231, 13) 100%);
+        width: 9vw;
+        height: 3.5vw;
         line-height: 2vw;
         padding: 0;
         border: none;
-        top: 417vw;
+        top: 422vw;
         position: absolute;
         left: 47vw;
     }
 
     .btn-3 span {
-        font-size: 1.2vw;
+        font-size: 1.9vw;
         position: relative;
         display: block;
+        font-weight: bold;
+        top: 1vw;
         width: 100%;
         height: 100%;
         font-family: 'Roboto';
         text-align: center;
+        color: rgb(0, 0, 0);
     }
 
     .btn-3:before,
@@ -2869,7 +2874,7 @@ hr {
         padding: 1vw 1vw;
         height: 100vh;
         background-size: cover;
-        top: 25vw;
+        top: 24vw;
         width: 90%;
         display: grid;
         min-height: 100vh;
@@ -3004,10 +3009,10 @@ hr {
     }
 
     .certifi {
-        top: 1vw;
+        top: 0.2vw;
         position: absolute;
-        left: 43vw;
-        font-size: 3vw;
+        left: 39vw;
+        font-size: 3.5vw;
         color: #42307D;
         font-family: 'Inter', sans-serif;
     }
@@ -3015,8 +3020,8 @@ hr {
     .Certificates p {
         top: 5vw;
         position: absolute;
-        left: 30vw;
-        font-size: 1.5vw;
+        left: 14vw;
+        font-size: 2.5vw;
         color: #42307D;
         font-family: 'Inter', sans-serif;
     }
@@ -3201,10 +3206,10 @@ hr {
 
     hr {
         position: absolute;
-        left: 45.5vw;
-        top: 5vw;
-        width: 6vw;
+        left: 45vw;
+        top: 9vw;
+        width: 12vw;
         border: 0;
-        border-top: 0.2vw solid #ffff11;
+        border-top: 0.5vw solid #ffff11;
     }
 }
