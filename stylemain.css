@@ -17,6 +17,7 @@ body {
 body>main{
 position: relative;
 }
+
 header {
     height: auto;
     width: 100vw;
@@ -3105,7 +3106,7 @@ hr {
     footer {
         background-color: white;
         position: absolute;
-        top: 899.9vw;
+        top: 657vw;
         height: 100vh;
         margin: 0;
         padding: 0;
@@ -3121,7 +3122,7 @@ hr {
     }
     
     .footerpic {
-        top: 22.9vw;
+        top: 145.6vw;
         width: 100%;
         position: relative;
         margin-bottom: 0;
@@ -3130,7 +3131,7 @@ hr {
     footer>small {
         position: absolute;
         left: 43vw;
-        top: 105vh;
+        top: 99vh;
         font-size: 1vw;
         font-weight: bold;
     }
