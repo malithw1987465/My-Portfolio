@@ -1702,14 +1702,14 @@ hr {
         line-height: 160vw;
         margin: 1vw 2vw;
         position: absolute;
-        top: 6vw;
+        top: 4vw;
     }
 
     .text-box h3 {
-        font-size: 3vh;
+        font-size: 1vh;
         position: absolute;
-        top: 31vw;
-        left: 20px;
+        top: -3vw;
+        left: 8px;
         color: #07034d;
     }
 
@@ -1717,7 +1717,7 @@ hr {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        font-size: 2.5vh;
+        font-size: 1.5vh;
         margin-top: 33vw;
         color: #676767;
     }
@@ -1740,10 +1740,10 @@ hr {
     }
 
     .text-box p {
-        font-size: 7vh;
+        font-size: 2vh;
         position: absolute;
-        top: 12vw;
-        left: 1vw;
+        top: -20vw;
+        left: 2vw;
         color: #84849d;
     }
 
@@ -1755,11 +1755,11 @@ hr {
     }
 
     .text-box h1 {
-        font-size: 15.729vh;
+        font-size: 4.729vh;
         line-height: 15vw;
-        margin-left: -1vw;
+        margin-left: 1vw;
         position: absolute;
-        top: 7vw;
+        top: -25vw;
         left: 1vw;
         color: transparent;
         -webkit-text-stroke: 2px #b5b6c3;
@@ -1877,10 +1877,10 @@ hr {
 
     .line1 {
         border: 1.5px solid rgb(0, 0, 0);
-        height: 32vw;
+        height: 37vw;
         position: absolute;
         left: 45vw;
-        top: 32vw;
+        top: 28vw;
     }
 
     .prof2 {
@@ -1899,10 +1899,10 @@ hr {
         background-image: url(assets/Mapwrap2.png);
         position: absolute;
         background-repeat: no-repeat;
-        top: 12.7vw;
-        width: 80%;
+        top: 11.7vw;
+        width: 100%;
         height: 35vw;
-        right: 0;
+       left: -1vw;
         background-size: cover;
         right: 10%;
 
@@ -1913,7 +1913,7 @@ hr {
         font-family: 'Poppins';
         font-weight: bold;
         top: 29vw;
-        font-size: 2vw;
+        font-size: 2.5vw;
         left: 50vw;
     }
 
@@ -1923,7 +1923,7 @@ hr {
         font-weight: 400;
         color: #AAAAAA;
         top: 45vw;
-        font-size: 1.5vw;
+        font-size: 1.9vw;
         left: 50vw;
     }
 
@@ -2066,7 +2066,7 @@ hr {
         top: 110vw;
         width: 4vw;
         height: 4.2vw;
-        left: 19.5vw;
+        left: 18.5vw;
         background-size: cover;
     }
 
@@ -2078,7 +2078,7 @@ hr {
     .AGE {
         position: absolute;
         top: 115vw;
-        left: 20vw;
+        left: 19vw;
         font-family: 'Plus Jakarta Sans';
         font-weight: bold;
         font-size: 2vw;
@@ -2110,7 +2110,7 @@ hr {
     .EMAIL {
         position: absolute;
         top: 115vw;
-        left: 51vw;
+        left: 50vw;
         font-family: 'Plus Jakarta Sans';
         font-weight: bold;
         font-size: 2vw;
@@ -2143,17 +2143,17 @@ hr {
     .LINKEDIN {
         position: absolute;
         top: 115vw;
-        left: 80.3vw;
+        left: 78.3vw;
         font-family: 'Plus Jakarta Sans';
         font-weight: bold;
         font-size: 2vw;
     }
 
     .mylinkedin {
-        font-size: 1.5vw;
+        font-size: 2.5vw;
         position: absolute;
         top: 117.5vw;
-        left: 80.5vw;
+        left: 79.5vw;
         text-decoration: none;
     }
 
@@ -2512,7 +2512,7 @@ hr {
         height: 34vw;
         position: absolute;
         top: 273vw;
-        left: 16.2vw;
+        left: 17.2vw;
         border-radius: 20px;
     }
 
@@ -2547,7 +2547,7 @@ hr {
         height: 34vw;
         position: absolute;
         top: 317vw;
-        left: 15vw;
+        left: 17.2vw;
         border-radius: 20px;
     }
 
@@ -2570,7 +2570,7 @@ hr {
         height: 34vw;
         position: absolute;
         top: 360vw;
-        left: 15vw;
+        left: 17.2vw;
         border-radius: 20px;
     }
 
@@ -3052,7 +3052,7 @@ hr {
         position: absolute;
         top: 563vw;
         width: 100%;
-        height: 280%;
+        height: 568%;
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(4, 1fr);
