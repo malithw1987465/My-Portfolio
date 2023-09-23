@@ -3011,7 +3011,7 @@ hr {
     .certifi {
         top: 0.2vw;
         position: absolute;
-        left: 41vw;
+        left: 39vw;
         font-size: 3.5vw;
         color: #42307D;
         font-family: 'Inter', sans-serif;
@@ -3020,7 +3020,7 @@ hr {
     .Certificates p {
         top: 5vw;
         position: absolute;
-        left: 23vw;
+        left: 14vw;
         font-size: 2.5vw;
         color: #42307D;
         font-family: 'Inter', sans-serif;
@@ -3117,7 +3117,7 @@ hr {
         background-color: white;
         position: absolute;
         top: 657vw;
-        height: 92vh;
+        height: 94vh;
         margin: 0;
         padding: 0;
     }
@@ -3141,7 +3141,7 @@ hr {
     footer>small {
         position: absolute;
         left: 37vw;
-        top: 90.5vh;
+        top: 92.5vh;
         font-size: 2vw;
         font-weight: bold;
     }
@@ -4616,18 +4616,18 @@ hr {
 
     .certifi {
         top: 0.2vw;
-        position: absolute;
-        left: 24vw;
-        font-size: 3.5vw;
-        color: #42307D;
-        font-family: 'Inter', sans-serif;
+    position: absolute;
+    left: 24vw;
+    font-size: 3.5vw;
+    color: #42307D;
+    font-family: 'Inter', sans-serif;
     }
 
     .Certificates p {
         top: 5vw;
         position: absolute;
-        left: 7vw;
-        font-size: 1.8vw;
+        left: 14vw;
+        font-size: 2.5vw;
         color: #42307D;
         font-family: 'Inter', sans-serif;
     }
