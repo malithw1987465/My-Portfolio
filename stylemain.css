@@ -3242,8 +3242,8 @@ hr {
         display: inline-block;
         margin: 1vw 1vw;
         position: relative;
-        left: 9vw;
-        font-size: 2.5vw;
+        left: 4vw;
+        font-size: 1.5vw;
     }
 
     nav>ul>li>a {
@@ -3269,7 +3269,7 @@ hr {
 
     .intro6 {
         color: #000000;
-        font-size: 2.5vw;
+        font-size: 1.5vw;
         position: absolute;
         top: 2vw;
         left: -11vw;
@@ -3279,7 +3279,7 @@ hr {
 
     .intro7 {
         color: #ff0000;
-        font-size: 2.5vw;
+        font-size: 1.5vw;
         position: absolute;
         top: 2vw;
         left: -12vw;
