@@ -1622,7 +1622,7 @@ hr {
 
     header {
         height: auto;
-        width: 100vw;
+        width: 80vw;
         position: absolute;
         top: 0;
         right: 0;
@@ -1633,10 +1633,10 @@ hr {
     body>header>nav>ul>li {
         font-weight: bolder;
         display: inline-block;
-        margin: 25px 40px;
+        margin: 1vw 1vw;
         position: relative;
-        left: 31vw;
-        font-size: 1.5vw;
+        left: 16vw;
+        font-size: 2.5vw;
     }
 
     nav>ul>li>a {
@@ -1662,30 +1662,30 @@ hr {
 
     .intro6 {
         color: #000000;
-        font-size: 1.5vw;
+        font-size: 2.5vw;
         position: absolute;
-        top: 25px;
-        left: 60px;
+        top: 2vw;
+        left: -11vw;
         font-family: sans-serif;
         font-weight: 600;
     }
 
     .intro7 {
         color: #ff0000;
-        font-size: 1.5vw;
+        font-size: 2.5vw;
         position: absolute;
-        top: 25px;
-        left: 40px;
+        top: 2vw;
+        left: -12vw;
         font-family: sans-serif;
         font-weight: 600;
     }
 
     .profilepic {
         position: absolute;
-        top: -9vw;
+        top: -37vw;
         left: 42vw;
         width: 40vw;
-        height: 100%;
+        height: 36vw;
     }
 
     /* .rec {
@@ -1772,11 +1772,11 @@ hr {
     .ReachMe {
         left: 1.5vw;
         opacity: 100%;
-        top: 42vw;
+        top: 14vw;
         position: absolute;
         font-family: Roboto Flex;
         font-weight: 600;
-        font-size: 2vw;
+        font-size: 3vw;
         opacity: 1;
     }
 
@@ -1785,8 +1785,8 @@ hr {
     }
 
     .social-links a {
-        width: 4vw;
-        height: 4vw;
+        width: 6vw;
+        height: 6vw;
         text-align: center;
         text-decoration: none;
         color: #000000;
@@ -1796,13 +1796,13 @@ hr {
         position: relative;
         overflow: hidden;
         transition: transform 0.5s;
-        top: 4.5vw;
-        left: 12vw;
+        top: 5.5vw;
+        left: 15vw;
     }
 
     .social-links a .fa-brands {
-        font-size: 4vh;
-        line-height: 9vh;
+        font-size: 1.9vh;
+        line-height:0.1vh;
         position: relative;
         z-index: 10;
         transition: color 0.5s;
