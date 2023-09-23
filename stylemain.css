@@ -1607,7 +1607,7 @@ hr {
     border-top: 0.2vw solid #ffff11;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 550px) {
 
     body {
         background-image: url(assets/top-view-blue-decorative-frame.jpg);
