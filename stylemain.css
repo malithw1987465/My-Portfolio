@@ -1610,7 +1610,7 @@ hr {
 @media all and (max-width: 320px) {
 
     body {
-        background-image: url(assets/top-view-blue-decorative-frame.jpg);
+        /* background-image: url(assets/top-view-blue-decorative-frame.jpg); */
         background-color: #2336e2;
         width: 100%;
         background-position: center center;
@@ -1635,7 +1635,7 @@ hr {
         display: inline-block;
         margin: 1vw 1vw;
         position: relative;
-        left: 9vw;
+        left: 6vw;
         font-size: 2.5vw;
     }
 
@@ -1671,7 +1671,7 @@ hr {
     }
 
     .intro7 {
-        color: #ff0000;
+        color: rgb(255, 4, 4);
         font-size: 2.5vw;
         position: absolute;
         top: 2vw;
