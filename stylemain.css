@@ -3314,7 +3314,7 @@ hr {
     .text-box h3 {
         font-size: 1vh;
         position: absolute;
-        top: -3vw;
+        top: -2vw;
         left: 8px;
         color: #07034d;
     }
@@ -3378,7 +3378,7 @@ hr {
     .ReachMe {
         left: 1.5vw;
         opacity: 100%;
-        top: 21vw;
+        top: 14vw;
         position: absolute;
         font-family: Roboto Flex;
         font-weight: 600;
@@ -3510,7 +3510,7 @@ hr {
         height: 35vw;
         right: -1vw;
         background-size: cover;
-        right: 10%;
+        right: 2%;
 
     }
 
