@@ -4723,7 +4723,7 @@ hr {
         background-color: white;
         position: absolute;
         top: 657vw;
-        height: 94vh;
+        height: 77vh;
         margin: 0;
         padding: 0;
     }
@@ -4738,7 +4738,7 @@ hr {
     }
 
     .footerpic {
-        top: 130.9vw;
+        top: 103.9vw;
         width: 100%;
         position: relative;
         margin-bottom: 0;
@@ -4747,7 +4747,7 @@ hr {
     footer>small {
         position: absolute;
         left: 37vw;
-        top: 92.5vh;
+        top: 75.5vh;
         font-size: 2vw;
         font-weight: bold;
     }
