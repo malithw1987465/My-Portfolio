@@ -3213,6 +3213,7 @@ hr {
         border-top: 0.5vw solid #ffff11;
     }
 }
+
 @media all and (min-width: 320px) and (max-width: 460px) {
 
     body {
@@ -4723,7 +4724,7 @@ hr {
     footer {
         background-color: white;
         position: absolute;
-        top: 667vw;
+        top: 712vw;
         height: 94vh;
         margin: 0;
         padding: 0;
@@ -4739,7 +4740,7 @@ hr {
     }
 
     .footerpic {
-        top: 133.9vw;
+        top: 158.9vw;
         width: 100%;
         position: relative;
         margin-bottom: 0;
