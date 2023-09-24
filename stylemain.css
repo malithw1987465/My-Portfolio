@@ -4819,7 +4819,7 @@ hr {
         border-top: 0.5vw solid #ffff11;
     }
 }
-@media all and (min-width: 460px) and (max-width: 575px) {
+@media all and (min-width: 461px) and (max-width: 575px) {
 
     body {
         background-image: url(assets/top-view-blue-decorative-frame.jpg);
@@ -6120,11 +6120,11 @@ hr {
 
     .blog1 {
         background-image: url(assets/blog1.png);
-        width: 27vw;
-        height: 17vw;
+        width: 55vw;
+        height: 34vw;
         position: absolute;
-        top: 445vw;
-        left: 5vw;
+        top: 425vw;
+        left: 23vw;
         border-radius: 20px;
         background-position: center center;
         background-size: cover;
@@ -6139,11 +6139,11 @@ hr {
 
     .blog2 {
         background-image: url(assets/blog2.png);
-        width: 27vw;
-        height: 17vw;
+        width: 55vw;
+        height: 34vw;
         position: absolute;
-        top: 445vw;
-        left: 37vw;
+        top: 425vw;
+        left: 23vw;
         border-radius: 20px;
         background-position: center center;
         background-size: cover;
@@ -6329,8 +6329,8 @@ hr {
     footer {
         background-color: white;
         position: absolute;
-        top: 712vw;
-        height: 104vh;
+        top: 619vw;
+        height: 130vw;
         margin: 0;
         padding: 0;
     }
@@ -6345,7 +6345,7 @@ hr {
     }
 
     .footerpic {
-        top: 114.9vw;
+        top: 108.9vw;
         width: 100%;
         position: relative;
         margin-bottom: 0;
