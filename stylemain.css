@@ -1525,7 +1525,7 @@ footer>form {
 }
 
 .footerpic {
-    top: 28.5vw;
+    top: 30.9vw;
     width: 100%;
     position: relative;
     margin-bottom: 0;
@@ -1534,7 +1534,7 @@ footer>form {
 footer>small {
     position: absolute;
     left: 37vw;
-    top: 92.5vh;
+    top: 113.5vh;
     font-size: 2vw;
     font-weight: bold;
 }
@@ -1772,7 +1772,7 @@ hr {
     .ReachMe {
         left: 1.5vw;
         opacity: 100%;
-        top: 14vw;
+        top: 21vw;
         position: absolute;
         font-family: Roboto Flex;
         font-weight: 600;
