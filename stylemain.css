@@ -738,6 +738,7 @@ hr.line4 {
 /* Education section over */
 
 /* .services{
+    position: absolute;
     display: grid;
     padding: 1.5vw 0;
     width: 100%;
@@ -2453,7 +2454,7 @@ hr {
 
     .services-list div p {
         font-family: Roboto Flex;
-        font-size: 1.5vw;
+        font-size: 1.5vh;
         text-align: center;
         color: #000000;
     }
