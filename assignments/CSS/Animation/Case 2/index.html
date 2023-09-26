@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Case 2</title>
+    <link rel="stylesheet" href="normalize.css">
+
+    <style>
+        body {
+            background-color: rgb(9, 4, 42);
+        }
+
+        main>div {
+            height: 30vw;
+            width: 30vw;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background: #210a3d;
+
+        }
+
+        main>div:first-child {
+            background: #3a43e8;
+            animation-name: moon;
+            animation-duration: 5s;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes moon {
+            0% {
+                left: 70px;
+                bottom: 70px;
+            }
+
+            50% {
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                box-shadow: 0 0 15vw 0px #e7dcc7;
+            }
+
+            100% {
+                right: 70px;
+                top: 70px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div></div>
+        <div></div>
+    </main>
+</body>
+
+</html>
