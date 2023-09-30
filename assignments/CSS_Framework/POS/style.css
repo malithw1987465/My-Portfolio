@@ -4,13 +4,6 @@
 *{
     font-family: 'Titillium Web', sans-serif;
 }
-#title{
-    color: #1b5e20;
-    font-size: 2em;
-}
-#title:hover{
-    color: #00695c;
-}
 #navbar-main{
     z-index: 1;
     background-color: rgba(255,255,255,0.8);
