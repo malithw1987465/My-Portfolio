@@ -55,22 +55,26 @@
 
 <body>
     <section>
-        <div ></div>
-        <div ></div>
-        <div ></div>
-        <div ></div>
-        <div ></div>
-    </section>
-    <script>
-        const colors = ['#FF5733', 'black', '#33FF57', '#FF337D', 'yellow'];
+        <div class="id"></div>
+        <div class="id"></div>
+        <div class="id"></div>
+        <div class="id"></div>
+        <div class="id"></div>
+        <script>
+            var colours = ["brown", "blue", "green", "red", "black"];
+            var ids = document.querySelectorAll(".id");
 
-        for (let i = 0; i < colors.length; i++) {
-            const Boxes = document.querySelectorAll("div")[i];
-            Boxes.style.backgroundColor = colors[i];
-        }
+            setInterval(function () {
+                var color = colours.pop();
+                colours.unshift(color);
+                ids.forEach(function (element, index) {
+                    element.style.backgroundColor = colours[index];
+                });
+            }, 200);
+            
+        </script>
 
-
-    </script>
+        </script>
 </body>
 
 </html>
