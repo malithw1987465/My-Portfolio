@@ -17,9 +17,8 @@
         <img class="float-left" height="75px" src="assets/logo.png"
             style="border-radius: 100%; width: 4vw; height: 4vw;" alt="logo">
         <a id="title" class="navbar-brand fw-bolder text-success">Malith POS System </a>
-        <button class="navbar-toggler bg-success" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarContent">
@@ -34,7 +33,7 @@
                 <li class="nav-item">
                     <a class="nav-link text-primary" href="#" id="lnkItem">Items</a>
                 </li>
-                <li >
+                <li>
                     <a class="btn text-primary bg-transparent dropdown-toggle" id="lnkCustomer" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false" style="margin-top: 0.17vw;">
                         Customers
@@ -175,17 +174,18 @@
                                 <div class="modal-body">
                                     <div class="form-group">
                                         <label for="name">Customer Name :</label>
-                                        <input type="text" id="custName" class="form-control">
+                                        <input type="text" id="textCustomerName" class="form-control">
                                         <label for="age">Age :</label>
-                                        <input type="number" id="custAge" class="form-control">
+                                        <input type="number" id="textCustomerAge" class="form-control">
                                         <label for="tp">Tp :</label>
-                                        <input type="text" id="custTp" class="form-control">
-                                        <label for="salary">Salary :</label>
-                                        <input type="number" id="custSalary" class="form-control">
+                                        <input type="text" id="textCustomerTp" class="form-control">
+                                        <label for="salary">Address :</label>
+                                        <input type="text" id="textCustomerAddress" class="form-control">
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" onclick="" class="btn btn-danger">Save</button>
+                                    <button type="button" onclick="" class="btn btn-danger"
+                                        id="btnCustomer">Save</button>
                                     <button type="button" onclick="" class="btn btn-info"
                                         data-dismiss="modal">Close</button>
                                 </div>
@@ -275,12 +275,12 @@
                         <div class="center-on-lg">
                             <div class="btn-group float-right mt-lg-0 mb-3">
                                 <button type="button" class="btn btn-info" data-bs-toggle="modal"
-                                    data-bs-target="#myModal">New Item</button>
+                                    data-bs-target="#myModal2">New Item</button>
                                 <button type="button" class="btn btn-warning">View All Items</button>
                             </div>
                         </div>
                     </div>
-                    <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal fade" id="myModal2" role="dialog">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header bg-primary">
@@ -500,55 +500,81 @@
         </footer>
     </div>
     <script>
-    let Home = document.querySelector("#Home");
-    let Customer = document.querySelector("#Customer");
-    let Item = document.querySelector("#Item");
-    let Orders = document.querySelector("#Orders");
+        let Home = document.querySelector("#Home");
+        let Customer = document.querySelector("#Customer");
+        let Item = document.querySelector("#Item");
+        let Orders = document.querySelector("#Orders");
 
-    //select all the link and bind click events
-    let lnkHome = document.querySelector("#lnkHome");
-    let lnkCustomer = document.querySelector("#lnkCustomer");
-    let lnkItem = document.querySelector("#lnkItem");
-    let lnkOrder = document.querySelector("#lnkOrders");
+        //select all the link and bind click events
+        let lnkHome = document.querySelector("#lnkHome");
+        let lnkCustomer = document.querySelector("#lnkCustomer");
+        let lnkItem = document.querySelector("#lnkItem");
+        let lnkOrder = document.querySelector("#lnkOrders");
 
-    Home.style.display = 'block';
-    Customer.style.display = 'none';
-    Item.style.display = 'none';
-    Orders.style.display = 'none';
-
-    lnkHome.addEventListener("click",function (){
         Home.style.display = 'block';
         Customer.style.display = 'none';
         Item.style.display = 'none';
         Orders.style.display = 'none';
-    })
 
-    lnkCustomer.addEventListener("click",function (){
-        Home.style.display = 'none';
-        Customer.style.display = 'block';
-        Item.style.display = 'none';
-        Orders.style.display = 'none';
-    })
+        lnkHome.addEventListener("click", function () {
+            Home.style.display = 'block';
+            Customer.style.display = 'none';
+            Item.style.display = 'none';
+            Orders.style.display = 'none';
+        })
 
-    lnkItem.addEventListener("click",function (){
-        Home.style.display = 'none';
-        Customer.style.display = 'none';
-        Item.style.display = 'block';
-        Orders.style.display = 'none';
-    })
+        lnkCustomer.addEventListener("click", function () {
+            Home.style.display = 'none';
+            Customer.style.display = 'block';
+            Item.style.display = 'none';
+            Orders.style.display = 'none';
+        })
 
-    lnkOrder.addEventListener("click",function (){
-        Home.style.display = 'none';
-        Customer.style.display = 'none';
-        Item.style.display = 'none';
-        Orders.style.display = 'block';
-    })
+        lnkItem.addEventListener("click", function () {
+            Home.style.display = 'none';
+            Customer.style.display = 'none';
+            Item.style.display = 'block';
+            Orders.style.display = 'none';
+        })
+
+        lnkOrder.addEventListener("click", function () {
+            Home.style.display = 'none';
+            Customer.style.display = 'none';
+            Item.style.display = 'none';
+            Orders.style.display = 'block';
+        })
 
 
+        var custName= document.querySelector("#textCustomerName");
+        var custAge= document.querySelector("#textCustomerAge");
+        var custTp=document.querySelector("#textCustomerTp");
+        var custAddress= document.querySelector("#textCustomerAddress");
 
+        let btnSave = document.querySelector("#btnCustomer");
 
+        const cusAr=new Array();
 
-</script>
+        btnSave.addEventListener("click", function () {
+            const custom = {
+                Name:custName.value,
+                Age: custAge.value,
+                Tp: custTp.value,
+                Address:custAddress.value
+            };
+
+            cusAr.push(custom);
+            custName.value = "";
+            custAge.value = "";
+            custTp.value = "";
+            custAddress.value = "";
+
+            console.log(cusAr);
+        })
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
