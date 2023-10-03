@@ -1,60 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Que</title>
     <style>
-        body>section>div:first-child{
+        body>section>div:first-child {
             position: absolute;
             width: 200px;
             height: 80px;
-            background-color: brown;
             top: 20vw;
             left: 10px;
+            border: 2px solid rgb(0, 0, 0);
         }
-        body>section>div:nth-child(2){
+
+        body>section>div:nth-child(2) {
             position: absolute;
             width: 200px;
             height: 80px;
-            background-color: rgb(53, 14, 227);
             left: 210px;
             top: 25vw;
+            border: 2px solid rgb(0, 0, 0);
         }
-        body>section>div:nth-child(3){
+
+        body>section>div:nth-child(3) {
             position: absolute;
             width: 200px;
             height: 80px;
-            background-color: rgb(171, 249, 17);
             top: 25vw;
             left: 410px;
+            border: 2px solid rgb(0, 0, 0);
         }
-        body>section>div:nth-child(4){
+
+        body>section>div:nth-child(4) {
             position: absolute;
             width: 200px;
             height: 80px;
-            background-color: rgb(255, 0, 0);
             top: 25vw;
             left: 610px;
+            border: 2px solid rgb(0, 0, 0);
         }
-        body>section>div:nth-child(5){
+
+        body>section>div:nth-child(5) {
             position: absolute;
             width: 200px;
             height: 80px;
-            background-color: rgb(127, 100, 100);
+            border: 2px solid rgb(0, 0, 0);
             top: 30vw;
             left: 810px;
         }
-
     </style>
 </head>
+
 <body>
     <section>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
     </section>
+    <script>
+        const colors = ['#FF5733', 'black', '#33FF57', '#FF337D', 'yellow'];
+
+        for (let i = 0; i < colors.length; i++) {
+            const Boxes = document.querySelectorAll("div")[i];
+            Boxes.style.backgroundColor = colors[i];
+        }
+
+
+    </script>
 </body>
+
 </html>
