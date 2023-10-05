@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/normalize.css">
+    <script src="https://kit.fontawesome.com/49a731d95a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div id="calculator">
+        <div class="top">
+            <span class="clear">C</span>
+            <div class="screen"></div>
+        </div>
+
+        <div class="keys">
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+            <span class="operator">+</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span class="operator">-</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span class="operator">÷</span>
+            <span>0</span>
+            <span>.</span>
+            <span class="eval">=</span>
+            <span class="operator">x</span>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        var keys = document.querySelectorAll('#calculator span');
+        var operators = ['+', '-', 'x', '÷'];
+        var decimalAdded = false;
+
+        for (var i = 0; i < keys.length; i++) {
+            keys[i].onclick = function (e) {
+                var input = document.querySelector('.screen');
+                var inputVal = input.innerHTML;
+                var btnVal = this.innerHTML;
+
+                if (btnVal == 'C') {
+                    input.innerHTML = '';
+                    decimalAdded = false;
+                }
+
+                else if (btnVal == '=') {
+                    var equation = inputVal;
+                    var lastChar = equation[equation.length - 1];
+
+                    equation = equation.replace(/x/g, '*').replace(/÷/g, '/');
+
+                    if (operators.indexOf(lastChar) > -1 || lastChar == '.')
+                        equation = equation.replace(/.$/, '');
+
+                    if (equation)
+                        input.innerHTML = eval(equation);
+
+                    decimalAdded = false;
+                }
+
+                else if (operators.indexOf(btnVal) > -1) {
+                    var lastChar = inputVal[inputVal.length - 1];
+
+                    if (inputVal != '' && operators.indexOf(lastChar) == -1)
+                        input.innerHTML += btnVal;
+
+                    else if (inputVal == '' && btnVal == '-')
+                        input.innerHTML += btnVal;
+
+                    if (operators.indexOf(lastChar) > -1 && inputVal.length > 1) {
+                        input.innerHTML = inputVal.replace(/.$/, btnVal);
+                    }
+
+                    decimalAdded = false;
+                }
+
+                else if (btnVal == '.') {
+                    if (!decimalAdded) {
+                        input.innerHTML += btnVal;
+                        decimalAdded = true;
+                    }
+                }
+
+                else {
+                    input.innerHTML += btnVal;
+                }
+                e.preventDefault();
+            }
+        }
+    </script>
+</body>
+
+</html>
