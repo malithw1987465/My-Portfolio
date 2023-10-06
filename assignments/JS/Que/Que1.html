@@ -11,10 +11,90 @@
 </head>
 
 <body class="bg-warning-subtle">
-    <button type="button" class="btn btn-outline-primary" style="position: absolute; left: 10vw; width: 100px; top: 20vw;">Start</button>
-    <button type="button" class="btn btn-outline-danger" style="position: absolute; left: 10vw; width: 100px; top: 25vw;" >Stop</button>
-    <div class="container">
-      </div>
+    <button id="start" class="btn  btn-outline-primary me-5 position-absolute"
+        style="width: 8vw; top:40vw; left:40vw;">Start </button>
+    <button id="stop" class="btn  btn-outline-danger me-5 position-absolute"
+        style="width: 8vw; top:40vw; left:50vw;">Stop </button>
+    <div class="container-fluid  position-absolute top-50 start-50 translate-middle  "
+        style="width:100%; height: 30vw;">
+        <div class="row w-100 h-100 m-0">
+            <div class="col-9 position-relative">
+                <div class="container w-100  border-bottom border-opacity-25 " style="height: 50%; margin-top: 11.5%;">
+                    <div class="row w-100  h-100   ">
+                        <div class="col-2 h-100 position-relative fs-2">
+                            <span class="position-absolute text-danger bottom-0 end-0"></span>
+                            <img src="assets/walking-man-animated-lzilp2z8jdxc73r0.gif" alt="" class=" img w-100 h-100">
+                        </div>
+                        <div class="col-2 h-100 position-relative fs-2">
+                            <span class="position-absolute text-danger bottom-0 end-0"></span>
+                            <img src="assets/walking-man-animated-lzilp2z8jdxc73r0.gif" alt="" class=" img w-100 h-100">
+                        </div>
+                        <div class="col-2 h-100 position-relative fs-2">
+                            <span class="position-absolute text-danger bottom-0 end-0"></span>
+                            <img src="assets/walking-man-animated-lzilp2z8jdxc73r0.gif" alt="" class=" img w-100 h-100">
+                        </div>
+                        <div class="col-2 h-100 position-relative fs-2">
+                            <span class="position-absolute text-danger bottom-0 end-0"></span>
+                            <img src="assets/walking-man-animated-lzilp2z8jdxc73r0.gif" alt="" class=" img w-100 h-100">
+                        </div>
+                        <div class="col-2 h-100 position-relative fs-2">
+                            <span class="position-absolute text-danger bottom-0 end-0 "></span>
+                            <img src="assets/walking-man-animated-lzilp2z8jdxc73r0.gif" alt="" class=" img w-100 h-100">
+                        </div>
+                        <div class="col-2 h-100 position-relative fs-2">
+                            <span class="position-absolute text-danger bottom-0 end-0"></span>
+                            <img src="assets/walking-man-animated-lzilp2z8jdxc73r0.gif" alt="" class=" img w-100 h-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3  m-0 p-0 ">
+                <div class="container w-100 h-100  p-0 position-relative">
+                    <div class="row-cols-1 position-absolute top-50 translate-middle-y">
+                        <img src="assets/Home.gif" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let order = ["A", "B", "C", "D", "E", "F"];
+        let txt = document.querySelectorAll(".text-danger");
+        let start = document.querySelector("#start");
+        let stop = document.querySelector("#stop");
+        let img = document.querySelectorAll(".img");
+        let interval;
+
+        setOrder();
+
+        start.addEventListener("click", function () {
+            clearInterval(interval);
+            img.forEach(function (element) {
+                element.src = "assets/walking-man-animated-lzilp2z8jdxc73r0.gif";
+            })
+            setOrder();
+        });
+
+        stop.addEventListener("click", function () {
+            img.forEach(function (element) {
+                element.src = "assets/Screenshot 2023-10-06 211624.png";
+            })
+            clearInterval(interval);
+        });
+
+        function setOrder() {
+            interval = setInterval(function () {
+                for (let i = 0; i < order.length; i++) {
+                    txt[i].innerText = order[i];
+                }
+
+                let last = order.pop();
+                order.unshift(last);
+            }, 1000)
+        }
+
+
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
