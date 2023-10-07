@@ -10,10 +10,10 @@ body {
 
 h2 {
     position: absolute;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     top: 24px;
-    left: 39%;
+    left: 42%;
     margin: auto;
     letter-spacing: 4px;
     font-weight: bolder;
@@ -32,7 +32,7 @@ h2 {
     top: 70px;
     font-size: 20px;
     left: 45%;
-    color: blue;
+    color: rgb(189, 100, 45);
 }
 
 #wt {
