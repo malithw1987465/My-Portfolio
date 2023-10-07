@@ -1,0 +1,95 @@
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: bold 14px Arial, sans-serif;
+} */
+body {
+    background-color: #423b3b;
+}
+
+h2 {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 24px;
+    left: 39%;
+    margin: auto;
+    letter-spacing: 4px;
+    font-weight: bolder;
+}
+
+#sp {
+    position: absolute;
+    top: 70px;
+    font-size: 20px;
+    left: 39%;
+    color: #A93226;
+}
+
+#speed {
+    position: absolute;
+    top: 70px;
+    font-size: 20px;
+    left: 45%;
+    color: blue;
+}
+
+#wt {
+    position: absolute;
+    top: 70px;
+    font-size: 20px;
+    left: 49%;
+    color: #A93226;
+}
+
+#time {
+    position: absolute;
+    top: 70px;
+    font-size: 20px;
+    left: 60.5%;
+    color: blue;
+}
+
+#container {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    height: 100px;
+    left: 5%;
+    width: 90%;
+}
+
+.id {
+    flex: 1;
+    max-width: calc(100%/16*1);
+    height: 100%;
+    border: 1px solid #A93226;
+    background-color: white;
+}
+
+#start {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    width: 100px;
+}
+
+#stop {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    width: 100px;
+}
+
+#customRange {
+    position: absolute;
+
+}
+
+#meter {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+}
