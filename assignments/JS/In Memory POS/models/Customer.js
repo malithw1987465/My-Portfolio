@@ -1,6 +1,6 @@
-let customer={
+export var customer={
     id:"",
     name:"",
     address:"",
-    salary:0
+    salary:"",
 }
