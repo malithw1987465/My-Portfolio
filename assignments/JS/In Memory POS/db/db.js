@@ -1,16 +1,21 @@
-//you can store data like as follows
-export var customerDetail = [
-    {id: 'C00-001', name:'Malith Jayasundara', address: 'Hambanthota', salary: 50000},
-    {id: 'C00-002', name:'Rashmi Dias', address: 'Matara', salary: 25000},
-    {id: 'C00-003', name:'Hirusha Navod', address: 'Galle', salary: 65000}
+var customerDB = [
+    {id: "C00-001", name: "Sachin Thamalsha", age: "21",tp: "0743157372", salary: 100000},
+    {id: "C00-002", name: "Ranjith Perera", age: "21",tp: "0743157372", salary: 200000},
+    {id: "C00-003", name: "Kavindu Perera", age: "21",tp: "0743157372", salary: 300000}
 ];
 
-export var itemDetail = [
-    {code: 'I00-001', name:'Surf Excel 1kg', price: 550.00, quantity: 200},
-    {code: 'I00-002', name:'Rice Basmathi', price: 95.00, quantity: 100},
-    {code: 'I00-003', name:'Milk Powder',price: 1150.00, quantity: 122}
+var itemDB = [
+    {id:"I00-001",name:"Lux",qtyOnHand: 100,unitPrice: 145.00},
+    {id:"I00-002",name:"Sunlight",qtyOnHand: 150,unitPrice: 345.00},
+    {id:"I00-003",name:"Light Boy",qtyOnHand: 400,unitPrice: 245.00}
 ];
 
-export var orders = [];
 
-export var orderDetail = [];
+var orderDB = [
+    {oid:"OID-001", date:"2023/10/06", customerID:"C00-001",
+        orderDetails:[
+            {oid:"OID-001", code:"I00-001", qty:10, unitPrice:145.00},
+            {oid:"OID-001", code:"I00-002", qty:2, unitPrice:345.00}
+        ]
+    }
+];

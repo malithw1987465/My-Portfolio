@@ -1,75 +1,72 @@
-//logics for SPA
-initiateUI();
+initUI();
 
-function initiateUI() {
+function initUI(){
     clearAll();
-    $("#dashboardContent").css("display", "block");
-    setTheLastView();
+    $("#Home").css("display","block");
+    setLastView();
 }
 
-function saveLastView(clickedID) {
-    switch (clickedID) {
-        case "dashboardContent":
-            localStorage.setItem("view", "HOME");
+function saveView(clickedID){
+    switch(clickedID){
+        case "Home":
+            localStorage.setItem("view","HOME");
             break;
-        case "customerContent":
-            localStorage.setItem("view", "CUSTOMER");
+        case "Customer":
+            localStorage.setItem("view","CUSTOMER");
             break;
-        case "itemContent":
-            localStorage.setItem("view", "ITEM");
+        case "Item":
+            localStorage.setItem("view","ITEM");
             break;
-        case "orderContent":
-            localStorage.setItem("view", "ORDER");
+        case "Orders":
+            localStorage.setItem("view","ORDERS");
             break;
     }
 }
 
-function setTheLastView() {
-    let view = localStorage.getItem("view");
-    switch (view) {
+function setLastView(){
+    let view=localStorage.getItem("view");
+
+    switch(view){
         case "HOME":
-            setView($("#dashboardContent"));
-            break;
-        case "ITEM":
-            setView($("#itemContent"));
+            setView($("#Home"));
             break;
         case "CUSTOMER":
-            setView($("#customerContent"));
+            setView($("#Customer"));
             break;
-        case "ORDER":
-            setView($("#orderContent"));
+        case "ITEM":
+            setView($("#Item"));
+            break;
+        case "ORDERS":
+            setView($("#Orders"));
             break;
         default:
-            setView($("#dashboardContent"));
+            setView($("#Home"));
     }
 }
 
-function clearAll() {
-    $("#dashboardContent,#customerContent,#itemContent,#orderContent").css('display', 'none');
+function clearAll(){
+    $("#Home,#Customer,#Item,#Orders").css("display","none");
 }
 
-function setView(viewOb) {
+function setView(viewOb){
     clearAll();
-    viewOb.css("display", "block");
-    saveLastView(viewOb.get(0).id);
+    viewOb.css("display","block");
+    saveView(viewOb.get(0).id);
     console.log(viewOb.get(0).id);
 }
 
-//bind events
-$("#lnkHome").click(function () {
-    setView($("#dashboardContent"));
+$("#lnkHome").click(function(){
+    setView($("#Home"));
 });
 
-$("#lnkCustomer").click(function () {
-    setView($("#customerContent"));
+$("#lnkOrders").click(function(){
+    setView($("#Orders"));
 });
 
-$("#lnkItem").click(function () {
-    setView($("#itemContent"));
+$("#lnkItem").click(function(){
+    setView($("#Item"));
 });
 
-$("#lnkOrders").click(function () {
-    setView($("#orderContent"));
+$("#lnkCustomer").click(function(){
+    setView($("#Customer"));
 });
-
-//end of logics for SPA
