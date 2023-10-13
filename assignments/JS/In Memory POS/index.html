@@ -130,36 +130,38 @@
                         <div class="card">
                             <div class="card-header bg-success">Customer Search</div>
                             <div class="card-body">
-                                    <div class="form-group">
-                                        <label for="customerID">Customer ID :</label>
-                                        <input type="text" id="customerID" class="form-control">
-                                        <label for="name">Customer Name :</label>
-                                        <input type="text" id="custName" class="form-control">
-                                        <label for="age">Age :</label>
-                                        <input type="text" id="custAge" class="form-control">
-                                        <label for="tp">Tp :</label>
-                                        <input type="text" id="custTp" class="form-control">
-                                        <label for="salary">Salary :</label>
-                                        <input type="text" id="custSalary" class="form-control">
-                                    </div>
+                                <div class="form-group">
+                                    <label for="customerID">Customer ID :</label>
+                                    <input type="text" id="customerID" class="form-control">
+                                    <label for="name">Customer Name :</label>
+                                    <input type="text" id="custName" class="form-control">
+                                    <label for="age">Age :</label>
+                                    <input type="text" id="custAge" class="form-control">
+                                    <label for="tp">Tp :</label>
+                                    <input type="text" id="custTp" class="form-control">
+                                    <label for="salary">Salary :</label>
+                                    <input type="text" id="custSalary" class="form-control">
+                                </div>
                             </div>
                         </div>
                         <div class="form-action-buttons m-3">
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                                 <input type="radio" class="btn-check" name="btnradio" id="btnCusSave" autocomplete="off"
                                     checked>
-                                <label class="btn btn-outline-success"for="btnCusSave">Save</label>
-                                <input type="radio" class="btn-check" name="btnradio" id="btnCusDelete" autocomplete="off"
-                                    checked>
-                                <label class="btn btn-outline-secondary"for="btnCusDelete">Delete</label>
+                                <label class="btn btn-outline-success" for="btnCusSave">Save</label>
+                                <input type="radio" class="btn-check" name="btnradio" id="btnCusDelete"
+                                    autocomplete="off" checked>
+                                <label class="btn btn-outline-secondary" for="btnCusDelete">Delete</label>
 
-                                <input type="radio" class="btn-check" name="btnradio" id="btnCusEdit" autocomplete="off">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnCusEdit"
+                                    autocomplete="off">
                                 <label class="btn btn-outline-secondary" id for="btnCusEdit">Edit</label>
 
                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
                                 <label class="btn btn-outline-secondary" for="btnradio3">Details</label>
 
-                                <input type="radio" class="btn-check" name="btnradio" id="btnCusClear" autocomplete="off">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnCusClear"
+                                    autocomplete="off">
                                 <label class="btn btn-outline-secondary" for="btnCusClear">Clear</label>
                             </div>
                         </div>
@@ -167,7 +169,8 @@
                     <div class="col-lg-6 menu-button-group">
                         <div class="canter-on-lg">
                             <div class="btn-group float-right mt-lg-0 mb-3">
-                                <button type="button" id="btnViewAll" class="btn btn-warning">View All Customers</button>
+                                <button type="button" id="btnViewAll" class="btn btn-warning">View All
+                                    Customers</button>
                             </div>
                         </div>
                     </div>
@@ -185,7 +188,7 @@
                     <div class="col-md-12 mt-4 overflow-y: scroll;">
                         <table class="table table-bordered table-hover">
                             <thead class="bg-secondary">
-                                <tr >
+                                <tr>
                                     <th>ID</th>
                                     <th>Customer Name</th>
                                     <th>Age</th>
@@ -193,7 +196,7 @@
                                     <th>Salary</th>
                                 </tr>
                             </thead>
-                            <tbody id="tblCustomer" >
+                            <tbody id="tblCustomer">
                             </tbody>
                         </table>
                     </div>
@@ -232,20 +235,22 @@
                         </div>
                         <div class="form-action-buttons m-3">
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="btnradio" id="btnItemSave" autocomplete="off"
-                                checked>
-                            <label class="btn btn-outline-secondary" for="btnItemSave">Save</label>
-                                <input type="radio" class="btn-check" name="btnradio" id="btnItemDelete" autocomplete="off"
-                                    checked>
+                                <input type="radio" class="btn-check" name="btnradio" id="btnItemSave"
+                                    autocomplete="off" checked>
+                                <label class="btn btn-outline-secondary" for="btnItemSave">Save</label>
+                                <input type="radio" class="btn-check" name="btnradio" id="btnItemDelete"
+                                    autocomplete="off" checked>
                                 <label class="btn btn-outline-secondary" for="btnItemDelete">Delete</label>
 
-                                <input type="radio" class="btn-check" name="btnradio" id="btnItemEdit" autocomplete="off">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnItemEdit"
+                                    autocomplete="off">
                                 <label class="btn btn-outline-secondary" for="btnItemEdit">Edit</label>
 
                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
                                 <label class="btn btn-outline-secondary" for="btnradio3">Details</label>
 
-                                <input type="radio" class="btn-check" name="btnradio" id="btnItemClear" autocomplete="off">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnItemClear"
+                                    autocomplete="off">
                                 <label class="btn btn-outline-secondary" for="btnItemClear">Clear</label>
                             </div>
                         </div>
@@ -268,7 +273,7 @@
                                 </tr>
                             </thead>
                             <tbody id="tblItem">
-                             
+
                             </tbody>
                         </table>
                     </div>
@@ -298,7 +303,7 @@
                                         <select class="form-control col-12 col-xl-auto" id="customerSelect">
                                             <option>Choose an option</option>
                                         </select>
-                                        
+
                                     </div>
                                     <div class="form-group">
                                         <label>Address :</label>
@@ -432,8 +437,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-        
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div class="container my-5">
+        <div>
+        </div>
+        <footer class="footerlast" style="background-color: #2e7540;margin-top:17vw;">
+            <!-- Copyright -->
+            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <span class="text-white" href="">Malith Jayasundara</span>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
     <script>
         let Home = document.querySelector("#Home");
         let Customer = document.querySelector("#Customer");
@@ -482,7 +499,7 @@
         let btnSave = document.querySelector("#btnCustomer");
 
         const custArray = new Array();
-        let i=0;
+        let i = 0;
 
         btnSave.addEventListener("click", function () {
             const custom = {
@@ -506,7 +523,7 @@
         })
 
         const tableBody = document.querySelector('tbody');
-       
+
         function createTable(data) {
             for (i = 0; i < data.length; i++) {
                 let tr = document.createElement('tr');
@@ -517,7 +534,7 @@
                 tableBody.append(tr)
 
             }
-            
+
         }
 
 
