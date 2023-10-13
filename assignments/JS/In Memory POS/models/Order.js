@@ -1,6 +1,6 @@
-export var order = {
-    oid:"",
-    date:"",
-    customerID:"",
-    orderDetails:[],
-}
+// export var order = {
+//     oid:"",
+//     date:"",
+//     customerID:"",
+//     orderDetails:[],
+// }
