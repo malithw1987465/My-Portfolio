@@ -3,9 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 	font: bold 14px Arial, sans-serif;
+	/* color: #501616; */
 }
 body{
-    background-color: #423b3b;
+    background-color: #402b2b;
 }
 #calculator {
 	width: 400px;
