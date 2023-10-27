@@ -1,3 +1,10 @@
+#preloader{
+    background: #000 url(assets/load-33_256.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
 * {
     margin: 0;
     padding: 0;
@@ -4820,6 +4827,7 @@ hr {
         border-top: 0.5vw solid #ffff11;
     }
 }
+
 @media all and (min-width: 461px) and (max-width: 575px) {
 
     body {
@@ -6429,6 +6437,7 @@ hr {
         border-top: 0.5vw solid #ffff11;
     }
 }
+
 @media all and (min-width: 575px) and (max-width: 768px) {
 
     body {
@@ -9661,6 +9670,7 @@ hr {
         border-top: 0.5vw solid #ffff11;
     }
 }
+
 @media all and (min-width: 992px) and (max-width: 1199px) {
 
     body {
