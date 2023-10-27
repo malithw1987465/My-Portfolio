@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+#title{
+    color: #159003;
+    font-size: 2em;
+}
+#title:hover{
+    color: #000000;
+}
+#navbar-main{
+    z-index: 1;
+    background-color: rgba(255,255,255,0.8);
+    border-bottom: rgba(0,0,0,0.7) solid 3px;
+    box-shadow: black 0 0 10px;
+}
+.card-header{
+    color: white !important;
+}
+.dash-tile-icon{
+    font-size: 4.5rem;
+}
+#item{
+    position: absolute;
+}
+#orders{
+    position: absolute;
+}
+#customer{
+    position: absolute;
+}
+ul > li {
+    cursor: pointer;
+}

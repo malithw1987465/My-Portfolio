@@ -1,5 +1,7 @@
 initUI();
-
+$("#orders").css("display","none");
+$("#customer").css("display","none");
+$("#item").css("display","none");
 function initUI(){
     clearAll();
     $("#Home").css("display","block");

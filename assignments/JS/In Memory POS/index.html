@@ -151,14 +151,14 @@
                                 <label class="btn btn-outline-success" for="btnCusSave">Save</label>
                                 <input type="radio" class="btn-check" name="btnradio" id="btnCusDelete"
                                     autocomplete="off" checked>
-                                <label class="btn btn-outline-secondary" for="btnCusDelete">Delete</label>
+                                <label class="btn btn-outline-warning" for="btnCusDelete">Delete</label>
 
                                 <input type="radio" class="btn-check" name="btnradio" id="btnCusEdit"
                                     autocomplete="off">
                                 <label class="btn btn-outline-secondary" id for="btnCusEdit">Edit</label>
 
                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                                <label class="btn btn-outline-secondary" for="btnradio3">Details</label>
+                                <label class="btn btn-outline-primary" for="btnradio3">Details</label>
 
                                 <input type="radio" class="btn-check" name="btnradio" id="btnCusClear"
                                     autocomplete="off">
@@ -169,8 +169,7 @@
                     <div class="col-lg-6 menu-button-group">
                         <div class="canter-on-lg">
                             <div class="btn-group float-right mt-lg-0 mb-3">
-                                <button type="button" id="btnViewAll" class="btn btn-warning">View All
-                                    Customers</button>
+                                <button type="button" id="btnViewAll" class="btn btn-outline-danger">View All Customers</button>
                             </div>
                         </div>
                     </div>
@@ -187,7 +186,7 @@
                     </div>
                     <div class="col-md-12 mt-4 overflow-y: scroll;">
                         <table class="table table-bordered table-hover">
-                            <thead class="bg-secondary">
+                            <thead class="bg-transparent">
                                 <tr>
                                     <th>ID</th>
                                     <th>Customer Name</th>
@@ -258,13 +257,13 @@
                     <div class="col-lg-6 menu-button-group">
                         <div class="center-on-lg">
                             <div class="btn-group float-right mt-lg-0 mb-3">
-                                <button type="button" class="btn btn-dark">View All Items</button>
+                                <button type="button" class=" btn btn-outline-danger">View All Items</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-12 mt-4">
                         <table class="table table-bordered table-hover">
-                            <thead class="bg-secondary">
+                            <thead class="bg-transparent">
                                 <tr>
                                     <th>ID</th>
                                     <th>Item Name</th>
@@ -307,7 +306,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Address :</label>
-                                        <input type="text" class="form-control">
+                                        <input type="text" class="form-control" id="cAddress">
                                     </div>
                                     <div class="form-group">
                                         <label>Tel :</label>
@@ -326,11 +325,11 @@
                                 <form>
                                     <div class="form-group">
                                         <label>Date :</label>
-                                        <input type="date" class="form-control">
+                                        <input type="date" class="form-control" id="order-date">
                                     </div>
                                     <div class="form-group">
                                         <label>Order ID :</label>
-                                        <input type="text" class="form-control">
+                                        <input type="text" class="form-control" id="order-id">
                                     </div>
                                 </form>
                             </div>
@@ -350,21 +349,19 @@
                                         <label>Price :</label>
                                         <input id="itemPrices" type="text" class="form-control col-12 col-xl-4">
                                         <label class="mt-3 mt-xl-0 ml-0 ml-xl-2">Quantity :</label>
-                                        <input type="text" class="form-control col-12 col-xl-3">
+                                        <input type="text" class="form-control col-12 col-xl-3" id="itemsQTY">
+                                        <p><small class="text-danger" id="QtyError"></small></p>
                                     </div>
                                     <hr>
                                     <div class="text-center">Order Item</div>
                                     <hr>
                                     <div class="form-group">
                                         <label>Order Quantity :</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Credit Limit :</label>
-                                        <input type="text" class="form-control">
+                                        <input type="text" class="form-control" id="orderQty">
                                     </div>
                                     <div class="form-group text-right">
-                                        <button class="btn btn-secondary mt-3 col-12 col-sm-auto">Place Order</button>
+                                        <button class="btn btn-outline-warning"
+                                            id="order-add-item">Place Order</button>
                                     </div>
                                 </form>
                             </div>
@@ -373,27 +370,29 @@
                 </div>
                 <div class="col-md-12 mt-4">
                     <table id="cusTable" class="table table-bordered">
-                        <thead class="bg-secondary">
-                            <tr>
-                                <th>Item Name</th>
+                        <thead class="bg-transparent">
+                            <tr id="order-thead">
+                                <th>ItemID</th>
                                 <th>Price</th>
                                 <th>Quantity</th>
                                 <th>Total</th>
                             </tr>
                         </thead>
-                        <tbody class="bg-light">
+                        <tbody class="bg-light" id="order-table">
 
                         </tbody>
                     </table>
                 </div>
                 <section class="content-box-2 p-4 mt-4">
-                    <span id="total-text">Total : 00.0Rs/=</span>
+                    <span id="total">Total : 00.0Rs/=</span>
+                    <br><br>
+                    <span class="text-danger" id="subtotal">SubTotal : 00.0Rs/=</span>
                     <br><br>
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="form-group form-inline">
                                 <label>Cash</label>
-                                <input type="text" class="form-control col-12 col-lg-auto">
+                                <input type="text" class="form-control col-12 col-lg-auto" id="txtCash">
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -405,7 +404,7 @@
                         <div class="col-lg-4">
                             <div class="form-group form-inline">
                                 <label>Discount</label>
-                                <input type="text" class="form-control col-12 col-lg-auto">
+                                <input type="text" class="form-control col-12 col-lg-auto" id="txtDiscount">
                             </div>
                         </div>
                     </div>
@@ -413,15 +412,16 @@
                 <div class="menu-button-group float-right" style="margin-top: 10px;">
                     <div class="center-on-lg">
                         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
+                            <input type="radio" class="btn-check" name="btnradio" id="order-clear" autocomplete="off"
                                 checked>
-                            <label class="btn btn-outline-secondary" for="btnradio1">Clear</label>
+                            <label class="btn btn-outline-danger" for="order-clear">Clear</label>
 
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                            <label class="btn btn-outline-secondary" for="btnradio2">Renew Order</label>
+                            <label class="btn btn-outline-success" for="btnradio2">Renew Order</label>
 
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                            <label class="btn btn-outline-secondary" for="btnradio3">Submit Order</label>
+                            <input type="radio" class="btn-check" name="btnradio" id="btnSubmitOrder"
+                                autocomplete="off">
+                            <label class="btn btn-outline-dark" for="btnSubmitOrder">Submit Order</label>
                         </div>
                     </div>
                 </div>
@@ -439,116 +439,27 @@
         crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <div class="container my-5">
-        <div>
+
+    <footer class="footerlast" style="background-color: #2e7540;margin-top:17vw;">
+        <!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <span class="text-white" href="">Malith Jayasundara</span>
         </div>
-        <footer class="footerlast" style="background-color: #2e7540;margin-top:17vw;">
-            <!-- Copyright -->
-            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2023 Copyright:
-                <span class="text-white" href="">Malith Jayasundara</span>
-            </div>
-            <!-- Copyright -->
-        </footer>
-    </div>
-    <script>
-        let Home = document.querySelector("#Home");
-        let Customer = document.querySelector("#Customer");
-        let Item = document.querySelector("#Item");
-        let Orders = document.querySelector("#Orders");
-
-        //select all the link and bind click events
-        let lnkHome = document.querySelector("#lnkHome");
-        let lnkCustomer = document.querySelector("#lnkCustomer");
-        let lnkItem = document.querySelector("#lnkItem");
-        let lnkOrder = document.querySelector("#lnkOrders");
-
-        Home.style.display = 'block';
-        Customer.style.display = 'none';
-        Item.style.display = 'none';
-        Orders.style.display = 'none';
-
-        lnkHome.addEventListener("click", function () {
-            Home.style.display = 'block';
-            Customer.style.display = 'none';
-            Item.style.display = 'none';
-            Orders.style.display = 'none';
-        })
-
-        lnkCustomer.addEventListener("click", function () {
-            Home.style.display = 'none';
-            Customer.style.display = 'block';
-            Item.style.display = 'none';
-            Orders.style.display = 'none';
-        })
-
-        lnkItem.addEventListener("click", function () {
-            Home.style.display = 'none';
-            Customer.style.display = 'none';
-            Item.style.display = 'block';
-            Orders.style.display = 'none';
-        })
-
-        lnkOrder.addEventListener("click", function () {
-            Home.style.display = 'none';
-            Customer.style.display = 'none';
-            Item.style.display = 'none';
-            Orders.style.display = 'block';
-        })
-
-        let btnSave = document.querySelector("#btnCustomer");
-
-        const custArray = new Array();
-        let i = 0;
-
-        btnSave.addEventListener("click", function () {
-            const custom = {
-                name: document.querySelector("#custName").value,
-                age: document.querySelector("#custAge").value,
-                tp: document.querySelector("#custTp").value,
-                salary: document.querySelector("#custSalary").value
-
-            };
-
-            custArray.push(custom);
-            createTable(custArray);
-            document.querySelector("#custName").value = "";
-            document.querySelector("#custAge").value = "";
-            document.querySelector("#custTp").value = "";
-            document.querySelector("#custSalary").value = "";
-
-            console.log(custArray);
-
-
-        })
-
-        const tableBody = document.querySelector('tbody');
-
-        function createTable(data) {
-            for (i = 0; i < data.length; i++) {
-                let tr = document.createElement('tr');
-                tr.innerHTML = `<td>${data[i].name}</td>
-                 <td>${data[i].age}</td>
-                  <td>${data[i].tp}</td>
-                 <td>${data[i].salary}</td>`
-                tableBody.append(tr)
-
-            }
-
-        }
-
-
-
-    </script>
-    <script src="controllers/home.js"></script>
+        <!-- Copyright -->
+    </footer>
     <script src="db/db.js"></script>
-    <script src="controllers/customer.js"></script>
+    <script src="controllers/CustomerController.js"></script>
+    <script src="controllers/PurchaseOrderController.js"></script>
+    <script src="controllers/ItemController.js"></script>
+    <script src="controllers/DashboardController.js"></script>
+    <script src="controllers/validations/CustomerValidations.js"></script>
+    <script src="controllers/validations/ItemValidations.js"></script>
+    <script src="controllers/validations/OrderValidations.js"></script>
     <script src="models/customer.js"></script>
-    <script src="controllers/validations/customerValid.js"></script>
-    <script src="controllers/item.js"></script>
     <script src="models/item.js"></script>
-    <script src="controllers/validations/itemValid.js"></script>
-    <script src="controllers/ordersController.js"></script>
+    <script src="models/Order.js"></script>
+    <script src="models/OrderDetails.js"></script>
 </body>
 
 </html>

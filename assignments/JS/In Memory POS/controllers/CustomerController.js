@@ -1,25 +1,27 @@
 getAllCustomers();
-
-$("#btnCusSave").click(function () {
-    if (checkAll()) {
+$("#Home").css("display","none");
+$("#orders").css("display","none");
+$("#item").css("display","none");
+$("#btnCusSave").click(function(){
+    if(checkAll()){
         saveCustomer();
-
-    } else {
+        
+    }else{
         alert("error");
     }
 });
 
-$("#btnViewAll").click(function () {
+$("#btnViewAll").click(function(){
     getAllCustomers();
 });
 
-function bindTrEvents() {
-    $("#tblCustomer>tr").click(function () {
-        let id = $(this).children().eq(0).text();
-        let name = $(this).children().eq(1).text();
-        let age = $(this).children().eq(2).text();
-        let tp = $(this).children().eq(3).text();
-        let salary = $(this).children().eq(4).text();
+function bindTrEvents(){
+    $("#tblCustomer>tr").click(function(){
+        let id=$(this).children().eq(0).text();
+        let name=$(this).children().eq(1).text();
+        let age=$(this).children().eq(2).text();
+        let tp=$(this).children().eq(3).text();
+        let salary=$(this).children().eq(4).text();
 
         $("#customerID").val(id);
         $("#CustName").val(name);
@@ -30,39 +32,39 @@ function bindTrEvents() {
     });
 }
 
-$("#btnCusDelete").click(function () {
-    let id = $('#customerID').val();
+$("#btnCusDelete").click(function(){
+    let id=$('#customerID').val();
 
-    let con = confirm("Do you want to delete this customer ?");
+    let con=confirm("Do you want to delete this customer ?");
 
-    if (con) {
-        let response = deleteCustomer(id);
-        if (response) {
+    if(con){
+        let response=deleteCustomer(id);
+        if(response){
             alert("Customer Deleted Successfully. ");
             clearCustomInputFields();
             getAllCustomers();
-        } else {
+        }else{
             alert("Customer not deleted!!!!");
         }
     }
 });
 
-$("#btnCusEdit").click(function () {
-    let id = $("#customerID").val();
+$("#btnCusEdit").click(function(){
+    let id=$("#customerID").val();
     updateCustomer(id);
     clearCustomInputFields();
 });
 
-$("#btnCusClear").click(function () {
+$("#btnCusClear").click(function(){
     clearCustomInputFields();
 });
 
-function saveCustomer() {
-    let customerID = $("#customerID").val();
+function saveCustomer(){
+    let customerID=$("#customerID").val();
     if (searchCustomer(customerID.trim()) == undefined) {
         let customerName = $("#custName").val();
         let customerAge = $("#custAge").val();
-        let custTP = $("#custTp").val();
+        let custTP=$("#custTp").val();
         let customerSalary = $("#custSalary").val();
 
         let newCustomer = Object.assign({}, customer);
@@ -70,7 +72,7 @@ function saveCustomer() {
         newCustomer.id = customerID;
         newCustomer.name = customerName;
         newCustomer.age = customerAge;
-        newCustomer.tp = custTP;
+        newCustomer.tp=custTP;
         newCustomer.salary = customerSalary;
 
         customerDB.push(newCustomer);
@@ -91,7 +93,7 @@ function getAllCustomers() {
         let id = customerDB[i].id;
         let name = customerDB[i].name;
         let custAge = customerDB[i].age;
-        let custTp = customerDB[i].tp;
+        let custTp=customerDB[i].tp;
         let salary = customerDB[i].salary;
 
         let row = `<tr>
@@ -103,22 +105,22 @@ function getAllCustomers() {
                     </tr>`;
 
         $("#tblCustomer").append(row);
-
+        
 
         bindTrEvents();
     }
 }
 
 function deleteCustomer(id) {
-    let custID = $("#customerID").val();
+    let custID=$("#customerID").val();
     for (let i = 0; i < customerDB.length; i++) {
         if (customerDB[i].id == custID) {
-            customerDB.splice(i, 1);
+            customerDB.splice(i,1);
             return true;
         }
         return false;
-
-    }
+   
+}
 }
 
 function searchCustomer(id) {
@@ -137,12 +139,12 @@ function updateCustomer(id) {
 
             let customerName = $("#custName").val();
             let customerAge = $("#custAge").val();
-            let custTp = $("#custTp").val();
+            let custTp=$("#custTp").val();
             let customerSalary = $("#custSalary").val();
 
             customer.name = customerName;
             customer.age = customerAge;
-            customer.tp = custTp;
+            customer.tp=custTp;
             customer.salary = customerSalary;
 
             getAllCustomers();
