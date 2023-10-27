@@ -393,6 +393,9 @@
             <div></div>
             <div></div>
         </section>
+        <section id="loader">
+            <div></div>
+        </section>
     </main>
         <footer id="Contact">
             <h2>Contact Me</h2>
@@ -432,15 +435,13 @@
             },
         });
     </script>
-    <script>
-
-        var loader = document.getElementById("preloader");
-    
-        window.addEventListener("load", function(){
-          loader.style.display="none"
-        })
-    
-      </script>
+   <script>
+    $(window).on('load',function (){
+        // $("#loader").css('display','none');
+        $("#loader").fadeOut(1000);
+        console.log("Window is fully loaded");
+    });
+</script>
 </body>
 
 </html>
