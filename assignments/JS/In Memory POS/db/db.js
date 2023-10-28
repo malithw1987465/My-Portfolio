@@ -1,7 +1,7 @@
 var customerDB = [
-    {id: "C00-001", name: "Sachin Thamalsha", age: "21",tp: "0743157372", salary: 100000},
-    {id: "C00-002", name: "Ranjith Perera", age: "21",tp: "0743157372", salary: 200000},
-    {id: "C00-003", name: "Kavindu Perera", age: "21",tp: "0743157372", salary: 300000}
+    {id: "C00-001", name: "Malith Jayasundara", age: "21",tp: "0778967809", salary: 100000},
+    {id: "C00-002", name: "Rashmi Sandareka", age: "21",tp: "0778928809", salary: 200000},
+    {id: "C00-003", name: "Kavindu Perera", age: "21",tp: "0778928809", salary: 300000}
 ];
 
 var itemDB = [
