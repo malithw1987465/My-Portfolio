@@ -1,7 +1,7 @@
 getAllCustomers();
-$("#Home").css("display","none");
-$("#orders").css("display","none");
-$("#item").css("display","none");
+// $("#Home").css("display","none");
+// $("#orders").css("display","none");
+// $("#item").css("display","none");
 $("#btnCusSave").click(function(){
     if(checkAll()){
         saveCustomer();
