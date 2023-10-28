@@ -8,7 +8,7 @@ $("#item").css("display","none");
 
 
 $("#order-clear").click(function (){
-    clearAll();
+    clearAllOrders();
 });
 
 function generateOrderId() {
@@ -196,7 +196,7 @@ $("#btnSubmitOrder").click(function () {
                 if (dateCheck()) {
                     placeOrder();
                     alert("Order Place Successfully");
-                    clearAll();
+                    clearAllOrders();
                     generateOrderId();
                 } else {
                     alert("Insert Date!");

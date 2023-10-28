@@ -98,7 +98,7 @@ function getAllItems() {
                     </tr>`;
 
         $("#tblItem").append(row);
-
+        bindTrEvents();
 
     }
 }

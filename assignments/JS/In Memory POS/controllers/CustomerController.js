@@ -24,10 +24,10 @@ function bindTrEvents(){
         let salary=$(this).children().eq(4).text();
 
         $("#customerID").val(id);
-        $("#CustName").val(name);
+        $("#custName").val(name);
         $("#custAge").val(age);
         $("#custTp").val(tp);
-        $("#CustSalary").val(salary);
+        $("#custSalary").val(salary);
 
     });
 }
